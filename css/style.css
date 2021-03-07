@@ -111,7 +111,14 @@
         }
 /*Barra naveación*/
 .cl-white { color: white; }
-
+.container2 {
+  height: 100%;
+  max-width: 600px;
+  min-width: 450px;
+  margin: auto;
+  background-color: #FEFAE0;
+  padding: 20px;
+}
 .container{
   position: absolute;
     width: 100%;
@@ -125,8 +132,8 @@
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
-  line-height: 1;
+  font-size: 48px;
+  line-height: 2;
   letter-spacing: normal;
   text-transform: none;
   display: inline-block;
@@ -143,6 +150,9 @@
 .btn-transparent{
   background-color: transparent;
   border-color: transparent;
+  width: 50px;
+  height: 100px;
+
 }
 /*------------------------------------*/
 /* Navigation */

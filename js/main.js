@@ -1,5 +1,5 @@
-var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido; /*Estas son las secciones*/
-			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_volver; /*btns_volver es un ARRAY de botones*/
+var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, desplegable; /*Estas son las secciones*/
+			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_volver,btn_desplegable; /*btns_volver es un ARRAY de botones*/
 			var secciones;
 
 			window.onload = ()=>{
