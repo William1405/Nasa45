@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<title>Single App NASA 45</title>
+
+
+
+	<head><style type="text/css">
+
+    	.boton_personalizado{
+     	text-decoration: none;
+     	padding: 10px;
+     	padding-left: 60px;
+     	padding-right: 60px;
+     	font-weight: 600;
+     	font-size: 20px;
+     	color: #000000;
+     	background-color: #3939E9;
+     	border-radius: 6px;
+     	border: 2px #0016b0;
+    }
+    	.boton_personalizado:hover{
+    	color: #35353A;
+    	background-color: #ffffff;
+    }
+   </style></head>
+
+
+   <style type="text/css">
+
+   		body {
+			margin: 0;
+		}
+   		section{
+   			
+			width: 414px;
+			height:846px;
+			text-align: center;
+		}
+		#splash{
+			background: #CFCBCA;
+		}
+		#home_menu_restaurante{
+			background: #ECE3E1;
+		}
+		#perros{
+			background: #CFCBCA;
+		}
+		#sandwichs{
+			background: #CFCBCA;
+		}
+		#hamburguesas{
+			background: #CFCBCA;
+		}
+		#ver_pedido{
+			background: #CFCBCA;
+		}
+		#creditos{
+			background: #ECE3E1;
+		}	
+		#instrucciones p{
+			margin:25px;
+			text-align: left;
+		}	
+		.boton{
+			background-color: Navy;
+			color:white;
+			padding: 10px;
+			text-decoration: none;
+		}
+
+		.volver{
+			margin-left: -300px;
+			line-height: 50px;
+		}
+
+		.ocultar{
+			display: none;
+		}
+		
+
+		#logossss{
+			width:50px;
+			height:50px;
+
+			margin-right: -300px;
+ 	
+		}
+
+	
+
+		#icono_nave {
+			width: 50px;
+  			height: 50px;
+  			margin-right: -20em;
+  			object-position: 20%;
+  			position: relative;
+  			top: -200px;
+  			right: -10px;
+		}
+
+		#btn_irAlHome {
+			width: 35px;
+  			height: 35px;
+  			margin-left: : -20em;
+  			object-position: 20%;
+  			position: relative;
+  			top: -225px;
+  			left: -50px;
+  			border-radius: 6px;
+		}
+
+		#logo {
+			width: 200px;
+  			height: 200px;
+  			position: relative;
+  			top: -200px;
+  			margin-bottom: -50%;
+		}
+
+	</style>
+
+		<script> 
+
+			var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido; /*Estas son las secciones*/
+			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_volver; /*btns_volver es un ARRAY de botones*/
+			var secciones;
+
+			window.onload = ()=>{
+				crearReferencias();
+				agregarEventos();
+				setTimeout(irAlHome_menu,1500)
+			}
+
+			function crearReferencias(){
+				splash = document.getElementById("splash");
+				home_menu_restaurante = document.getElementById("home_menu_restaurante");
+				perros = document.getElementById("perros");
+				sandwichs = document.getElementById("sandwichs");
+				hamburguesas = document.getElementById("hamburguesas");
+				ver_pedido = document.getElementById("ver_pedido");
+				secciones = [splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido];
+				btn_perros = document.getElementById("btn_perros");
+				btn_sandwichs = document.getElementById("btn_sandwichs");
+				btn_hamburguesas = document.getElementById("btn_hamburguesas");
+				btn_ver_pedido = document.getElementById("btn_ver_pedido");
+				btns_volver = document.querySelectorAll(".volver");
+			}
+
+			function agregarEventos(){
+				btn_perros.addEventListener("click",()=>{irA(perros);});
+				btn_sandwichs.addEventListener("click",()=>{irA(sandwichs);});
+				btn_hamburguesas.addEventListener("click",()=>{irA(hamburguesas);});
+				btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
+				//btn_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
+
+				for (var i=0;i<=3;i++) {
+					//console.log(btns_volver,i);
+					btns_volver[i].addEventListener("click",()=>{irA(home_menu_restaurante);});
+				}
+				
+				//btns_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
+
+				//for(var i=0; i<=2;i++){
+
+					//console.log(btns_volver, i); //Para probar si es correcto
+					//btns_volver[i].addEventListener("click",()=>{irA(home_menu_restaurante);});
+				//}
+
+			}
+
+
+
+			function ocultarSecciones(){
+				for (i in secciones){
+					secciones[i].classList.add("ocultar");
+				}
+
+			}
+
+			function irA(seccion){
+				ocultarSecciones();
+				seccion.classList.remove("ocultar");
+			}
+
+
+			function irAlHome_menu(){
+				/*alert("Cambiar de seccion");*/
+				splash.classList.add("ocultar");
+				home_menu_restaurante.classList.remove("ocultar");
+
+			}
+
+		</script>
+
+</head>
+
+
+<body>
+	<!-- Splash -->
+	<section id="splash">
+		<br>
+		<h1>Splash Nasa 45</h1>
+		<br><br><br><br><br><br>
+		<img src="img\logo.png" alt="">
+	</section>	
+	<!-- Home Menu Restaurante -->
+	<section id="home_menu_restaurante" class="ocultar">
+		<br>
+		<h1>Nasa 45</h1>
+		<br><br><br><br><br><br>		
+		<img id="icono_nave" src="img\icono_nave.png" alt="">
+		<button id="btn_irAlHome" name="btn_irAlHome"> -- </button>
+    	<br>
+    	<!--<button>Boton 1</button>-->
+    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<button id="btn_perros" name="btn_perros">Perros</button> <br><br><br><br><br>
+		<button id="btn_sandwichs" name="btn_sandwichs">Sandwichs</button> <br><br><br><br><br>
+		<button id="btn_hamburguesas" name="btn_hamburguesas">Hamburguesas</button> <br><br><br><br><br>
+
+		<button id="btn_ver_pedido" name="btn_ver_pedido">Ver mi pedido</button> <br><br><br><br><br>
+		 <br><br><br><br><br>
+		
+	</section>	
+
+
+	<section id="perros" class="ocultar">
+		<a href="javascript:void(0);" class="boton volver">&lt;</a>
+		<br>
+		<h1>Perros Nasa 45</h1>
+		<br><br><br><br><br><br>		
+		<img id="icono_nave" src="img\icono_nave.png" alt="">
+		<!--<button id="btn_volver" name="btn_volver"> ---- </button>-->
+    	<br>
+    	<!--<button>Boton 1</button>-->
+    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<br>
+    	<img src="https://iconarchive.com/show/food-icons-by-iconshock/hot-dog-icon.html" alt="">&nbsp;&nbsp;
+	</section>	
+
+	<section id="sandwichs" class="ocultar">
+		<a href="javascript:void(0);" class="boton volver">&lt;</a>
+		<br>
+		<h1>Sandwichs Nasa 45</h1>
+		<br><br><br><br><br><br>		
+		<img id="icono_nave" src="img\icono_nave.png" alt="">
+		<!--<button id="btn_volver" name="btn_volver"> ---- </button>-->
+    	<br>
+    	<!--<button>Boton 1</button>-->
+    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<br>
+    	<img src="https://iconarchive.com/show/food-icons-by-iconshock/hot-dog-icon.html" alt="">&nbsp;&nbsp;
+	</section>	
+
+	<section id="hamburguesas" class="ocultar">
+		<a href="javascript:void(0);" class="boton volver">&lt;</a>
+		<br>
+		<h1>Hamburguesas Nasa 45</h1>
+		<br><br><br><br><br><br>		
+		<img id="icono_nave" src="img\icono_nave.png" alt="">
+		<!--<button id="btn_volver" name="btn_volver"> ---- </button>-->
+    	<br>
+    	<!--<button>Boton 1</button>-->
+    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<br>
+	</section>	
+
+	<section id="ver_pedido" class="ocultar">
+		<a href="javascript:void(0);" class="boton volver">&lt;</a>
+		<br>
+		<h1>Ver mi pedido Nasa 45</h1>
+		<br><br><br><br><br><br>		
+		<img id="icono_nave" src="img\icono_nave.png" alt="">
+		<!--<button id="btn_volver" name="btn_volver"> ---- </button>-->
+    	<br>
+    	<!--<button>Boton 1</button>-->
+    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<br>
+	</section>	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
