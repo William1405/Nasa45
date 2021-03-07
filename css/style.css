@@ -1,0 +1,164 @@
+
+        * {
+            box-sizing: border-box;
+          }
+
+        .boton_personalizado{
+     	text-decoration: none;
+     	padding: 10px;
+     	padding-left: 60px;
+     	padding-right: 60px;
+     	font-weight: 600;
+     	font-size: 20px;
+     	color: #000000;
+     	background-color: #3939E9;
+     	border-radius: 6px;
+     	border: 2px #0016b0;
+         }
+        .boton_personalizado:hover{
+        color: #35353A;
+    	background-color: #ffffff;
+        }
+
+        body {
+            margin: 0;
+        }
+        section{
+            
+            width: 414px;
+            height:846px;
+            text-align: center;
+         }
+        #splash{
+            background: #FEFAE0;
+        }
+        #home_menu_restaurante{
+            background: #FEFAE0;
+        }
+        #perros{
+            background: #FEFAE0;
+        }
+        #sandwichs{
+            background: #FEFAE0;
+        }
+        #hamburguesas{
+            background: #FEFAE0;
+        }
+        #ver_pedido{
+            background: #FEFAE0;
+        }
+        #creditos{
+            background: #ECE3E1;
+        }   
+        #instrucciones p{
+            margin:25px;
+            text-align: left;
+        }   
+        .boton{
+            background-color: Navy;
+            color:white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .volver{
+            margin-left: -300px;
+            line-height: 50px;
+        }
+
+        .ocultar{
+            display: none;
+        }
+        
+
+        #logossss{
+            width:50px;
+            height:50px;
+
+            margin-right: -300px;
+    
+        }
+
+    
+
+        #icono_nave {
+            width: 50px;
+            height: 50px;
+            margin-right: -20em;
+            object-position: 20%;
+            position: relative;
+            top: -200px;
+            right: -10px;
+        }
+
+        #btn_irAlHome {
+            width: 35px;
+            height: 35px;
+            margin-left: : -20em;
+            object-position: 20%;
+            position: relative;
+            top: -225px;
+            left: -50px;
+            border-radius: 6px;
+        }
+
+        #logo {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            /*top: -200px;
+            margin-bottom: -50%;*/
+        }
+/*Barra naveación*/
+.cl-white { color: white; }
+
+.container{
+  position: absolute;
+    width: 100%;
+  padding-top: 75px !important;
+  padding: 10px;
+  background-color:#FEFAE0;
+}
+
+/* Icons */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-icons.cl-white { color: white; }
+
+/* Buttons */
+.btn-transparent{
+  background-color: transparent;
+  border-color: transparent;
+}
+/*------------------------------------*/
+/* Navigation */
+nav{
+  background-color: #023e7d;
+  justify-content: space-between;
+  display: flex;
+  padding: 2px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}

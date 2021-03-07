@@ -3,14 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link REL=StyleSheet HREF="css/style.css" TYPE="text/css" MEDIA=screen>
+    <script language="javascript" src="js/main.js" type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" href="css/effect-ball.css" TYPE="text/css" MEDIA=screen>
 
 
-	<title>Single App NASA 45</title>
-
-
-
-	<head><style type="text/css">
+    
+    <head><style type="text/css">/*
 
     	.boton_personalizado{
      	text-decoration: none;
@@ -27,12 +29,12 @@
     	.boton_personalizado:hover{
     	color: #35353A;
     	background-color: #ffffff;
-    }
+    }*/
    </style></head>
 
 
    <style type="text/css">
-
+      /*
    		body {
 			margin: 0;
 		}
@@ -121,11 +123,12 @@
   			position: relative;
   			top: -200px;
   			margin-bottom: -50%;
-		}
+		}*/
 
 	</style>
 
 		<script> 
+			/*
 
 			var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido; /*Estas son las secciones*/
 			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_volver; /*btns_volver es un ARRAY de botones*/
@@ -196,6 +199,8 @@
 
 			}
 
+		/*	
+
 		</script>
 
 </head>
@@ -204,13 +209,46 @@
 <body>
 	<!-- Splash -->
 	<section id="splash">
-		<br>
-		<h1>Splash Nasa 45</h1>
-		<br><br><br><br><br><br>
-		<img src="img\logo.png" alt="">
+		<div class="loader-wrap">
+	    	<div class="container2 loader-brand">
+	      		<div class="loader">
+	        		<div class="loader-logo">
+	          			<figure class="content-img">
+	            			<img src="img\logo.png" alt="">
+	          			</figure>
+	        		</div>
+	        		<!-- Animación personalizada -->
+	        		<div class="loader-inner pulse-ball">
+		          		<div></div>
+		          		<div></div>
+		          		<div></div>
+		          		<div></div>
+	        		</div>
+	    		</div>
+	  		</div>	
+	  	</div>
+		
 	</section>	
 	<!-- Home Menu Restaurante -->
 	<section id="home_menu_restaurante" class="ocultar">
+		<div class="container">
+  			<nav class="fixed-top">
+    			<button class="btn-transparent">
+      				<span class="material-icons cl-white">
+        			keyboard_backspace
+      				</span>
+    			</button>
+    			
+      			<img id="logo" src="img\logo.png" alt="">
+    			
+    			<button class="btn-transparent">
+      				<span class="material-icons cl-white">
+        			manage_accounts
+      				</span>
+    			</button>
+  			</nav>
+  		</div
+
 		<br>
 		<h1>Nasa 45</h1>
 		<br><br><br><br><br><br>		
@@ -218,7 +256,7 @@
 		<button id="btn_irAlHome" name="btn_irAlHome"> -- </button>
     	<br>
     	<!--<button>Boton 1</button>-->
-    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<br>
     	<button id="btn_perros" name="btn_perros">Perros</button> <br><br><br><br><br>
 		<button id="btn_sandwichs" name="btn_sandwichs">Sandwichs</button> <br><br><br><br><br>
 		<button id="btn_hamburguesas" name="btn_hamburguesas">Hamburguesas</button> <br><br><br><br><br>
