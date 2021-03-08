@@ -21,6 +21,7 @@
         }
 
         body {
+            
             margin: 0;
         }
         section{
@@ -45,9 +46,6 @@
             background: #FEFAE0;
         }
         #ver_pedido{
-            background: #FEFAE0;
-        }
-        #face{
             background: #FEFAE0;
         }
         #creditos{
@@ -135,8 +133,8 @@
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 48px;
-  line-height: 2;
+  font-size: 24px;
+  line-height: 1;
   letter-spacing: normal;
   text-transform: none;
   display: inline-block;
@@ -151,6 +149,13 @@
 
 /* Buttons */
 .btn-transparent{
+  background-color: transparent;
+  border-color: transparent;
+  width: 50px;
+  height: 100px;
+
+}
+.btn-transparent1{
   background-color: transparent;
   border-color: transparent;
   width: 50px;
@@ -174,4 +179,11 @@ nav{
   right: 0;
   left: 0;
   z-index: 1030;
+}
+.card-restaurant {
+  border: 1px solid #bcbcbc;
+  padding: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px grey; 
 }
