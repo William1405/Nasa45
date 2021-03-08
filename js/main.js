@@ -1,5 +1,5 @@
-var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face, desplegable; /*Estas son las secciones*/
-			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_face, btns_volver,btn_desplegable; /*btns_volver es un ARRAY de botones*/
+var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion, desplegable; /*Estas son las secciones*/
+			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_face, btns_volver, btns_iniciarSesion, btn_desplegable; /*btns_volver es un ARRAY de botones*/
 			var secciones;
 
 			window.onload = ()=>{
@@ -16,12 +16,14 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 				hamburguesas = document.getElementById("hamburguesas");
 				ver_pedido = document.getElementById("ver_pedido");
 				face = document.getElementById("face");
-				secciones = [splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face];
+				iniciarSesion = document.getElementById("iniciarSesion");
+				secciones = [splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion];
 				btn_perros = document.getElementById("btn_perros");
 				btn_sandwichs = document.getElementById("btn_sandwichs");
 				btn_hamburguesas = document.getElementById("btn_hamburguesas");
 				btn_ver_pedido = document.getElementById("btn_ver_pedido");
 				btn_face = document.getElementById("btn_face");
+				btn_iniciarSesion = document.getElementById("btn_iniciarSesion");
 				btns_volver = document.querySelectorAll(".volver");
 			}
 
@@ -31,9 +33,10 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 				btn_hamburguesas.addEventListener("click",()=>{irA(hamburguesas);});
 				btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
 				btn_face.addEventListener("click",()=>{irA(face);});
+				btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
 				//btn_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
-				for (var i=0;i<=3;i++) {
+				for (var i=0;i<=5;i++) {
 					//console.log(btns_volver,i);
 					btns_volver[i].addEventListener("click",()=>{irA(home_menu_restaurante);});
 				}
