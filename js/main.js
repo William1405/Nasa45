@@ -1,5 +1,5 @@
-var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, desplegable; /*Estas son las secciones*/
-			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_volver,btn_desplegable; /*btns_volver es un ARRAY de botones*/
+var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face, desplegable; /*Estas son las secciones*/
+			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_face, btns_volver,btn_desplegable; /*btns_volver es un ARRAY de botones*/
 			var secciones;
 
 			window.onload = ()=>{
@@ -15,11 +15,13 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 				sandwichs = document.getElementById("sandwichs");
 				hamburguesas = document.getElementById("hamburguesas");
 				ver_pedido = document.getElementById("ver_pedido");
-				secciones = [splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido];
+				face = document.getElementById("face");
+				secciones = [splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face];
 				btn_perros = document.getElementById("btn_perros");
 				btn_sandwichs = document.getElementById("btn_sandwichs");
 				btn_hamburguesas = document.getElementById("btn_hamburguesas");
 				btn_ver_pedido = document.getElementById("btn_ver_pedido");
+				btn_face = document.getElementById("btn_face");
 				btns_volver = document.querySelectorAll(".volver");
 			}
 
@@ -28,6 +30,7 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 				btn_sandwichs.addEventListener("click",()=>{irA(sandwichs);});
 				btn_hamburguesas.addEventListener("click",()=>{irA(hamburguesas);});
 				btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
+				btn_face.addEventListener("click",()=>{irA(face);});
 				//btn_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
 				for (var i=0;i<=3;i++) {
