@@ -1,6 +1,7 @@
 var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion, crearMiCuenta, ingresarComoInvitado, desplegable; /*Estas son las secciones*/
 			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_face, btns_volver, btns_iniciarSesion, btns_crearMiCuenta, btn_ingresarComoInvitado, btn_desplegable; /*btns_volver es un ARRAY de botones*/
 			var secciones;
+			var flipCheck = 0;
 
 			window.onload = ()=>{
 				crearReferencias();
@@ -32,10 +33,10 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 			}
 
 			function agregarEventos(){
-				btn_perros.addEventListener("click",()=>{irA(perros);});
+				/*btn_perros.addEventListener("click",()=>{irA(perros);});
 				btn_sandwichs.addEventListener("click",()=>{irA(sandwichs);});
 				btn_hamburguesas.addEventListener("click",()=>{irA(hamburguesas);});
-				btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
+				*/btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
 				btn_face.addEventListener("click",()=>{irA(face);});
 				btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
 				btn_crearMiCuenta.addEventListener("click",()=>{irA(crearMiCuenta);});
@@ -78,3 +79,4 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 				home_menu_restaurante.classList.remove("ocultar");
 
 			}
+			

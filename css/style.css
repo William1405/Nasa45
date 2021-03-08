@@ -92,6 +92,14 @@
     
         }
 
+        .btn_sandwichs{
+          background-color: transparent;
+          border-color: transparent;
+          width: 416px;
+          height: 120px
+        }
+
+
     
 
         #icono_nave {
@@ -139,6 +147,13 @@
   padding: 10px;
   background-color:#FEFAE0;
 }
+.container3{
+  position: bottom;
+    width: 100%;
+  padding-bottom: : 15px !important;
+  padding: 0px;
+  background-color:#979DAC;
+}
 
 /* Icons */
 /*.material-icons {
@@ -162,12 +177,13 @@
 /* Buttons */
 .btn-transparent{
   background-image:url("../img/menu.png");
-  background-repeat:no-repeat;
   background-color: transparent;
-  border-color: #7d8597;
+  background-repeat:no-repeat;
+  
+  border-color: transparent;
   background-position:center;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   padding: 1px;
   border-radius: 6px;
 
@@ -177,11 +193,11 @@
   background-image:url("../img/face.png");
   background-color: transparent;
   background-repeat:no-repeat;
-  background-color: transparent;
-  border-color: #7d8597;
+  
+  border-color: transparent;
   background-position:center;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   padding: 1px;
   border-radius: 6px;
 
@@ -193,7 +209,7 @@ nav{
   justify-content: space-between;
   display: flex;
   padding: 2px;
-  margin-bottom: 50px;
+  margin-bottom: px;
   color: white;
 }
 
@@ -204,4 +220,8 @@ nav{
   left: 0;
   z-index: 1030;
 }
+
+
+
+
 
