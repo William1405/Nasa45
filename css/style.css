@@ -36,7 +36,7 @@
         #home_menu_restaurante{
             background: #FEFAE0;
         }
-        #perros{
+        #bebidas{
             background: #FEFAE0;
         }
         #sandwichs{
@@ -63,6 +63,9 @@
         #creditos{
             background: #ECE3E1;
         }   
+        #desplegable{
+          background: #FEFAE0;
+        }
         #instrucciones p{
             margin:25px;
             text-align: left;
@@ -95,9 +98,35 @@
         .btn_sandwichs{
           background-color: transparent;
           border-color: transparent;
+
           width: 416px;
           height: 120px
         }
+
+        .btn_hamburguesas{
+          background-color: transparent;
+          border-color: transparent;
+          
+          width: 416px;
+          height: 120px
+        }
+
+        .btn_bebidas{
+          background-color: transparent;
+          border-color: transparent;
+          
+          width: 416px;
+          height: 120px
+        }
+
+        .btn_ver_pedido{
+          background-color: transparent;
+          border-color: transparent;
+          
+          width: 416px;
+          height: 75px
+        }
+
 
 
     
@@ -221,7 +250,35 @@ nav{
   z-index: 1030;
 }
 
+nav .footer{
+  background-color: #979dac;
+  justify-content: space-between;
+  display: flex;
+  padding: 2px;
+  margin-bottom: px;
+  color: white;
+}
 
 
 
+.footer{
+
+position: fixed;
+
+bottom: 0;
+
+width: 99.5%;
+
+height: 75px;
+
+padding-bottom: 16px;
+
+background: #bfc0c0 ;
+
+/*background: rgba(0,0,0,.90);*/
+
+border-radius:35px;
+z-index:2000;
+
+}
 

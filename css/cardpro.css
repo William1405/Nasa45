@@ -125,7 +125,13 @@ body {
   text-shadow: 2px 2px 10px #0000006c;
   font-weight: 400;
 }
+.text-box-middle2 {
+  font-size: 3rem;
+  font-color:white;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px #f5f3f4;
 
+}
 .heading {
   transition: all 0.6s linear;
 }
@@ -145,7 +151,10 @@ body {
       rgba(2, 62, 125, 0.767),
       rgba(20, 20, 20, 0.6)
     ),
-    url("https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80");
+    url("../img/sandwich.jpg");
+    
+
+
 }
 
 #front-2 {
@@ -153,7 +162,8 @@ body {
      rgba(244, 213, 141,0.5),
       rgba(10, 15, 10, 0.7)
     ),
-    url("https://images.unsplash.com/photo-1508599804355-8ce5238b44b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80");
+    url("../img/hamburguesas.jpg");
+    background-image:center;
 }
 
 #front-3 {
@@ -161,7 +171,7 @@ body {
       rgba(2, 62, 125, 0.767),
       rgba(20, 20, 20, 0.6)
     ),
-    url("https://images.unsplash.com/photo-1499914485622-a88fac536970?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80");
+    url("../img/bebidas.jpg");
 }
 
 
@@ -174,7 +184,7 @@ body {
       rgba(2, 62, 125, 0.767),
       rgba(20, 20, 20, 0.6)
     ),
-    url("https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80");
+    url("../img/sandwich.jpg");
 }
 
 #back-2 {
@@ -182,7 +192,8 @@ body {
       rgba(244, 213, 141,0.5),
       rgba(10, 15, 10, 0.7)
     ),
-    url("https://images.unsplash.com/photo-1508599804355-8ce5238b44b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80");
+    url("../img/hamburguesas.jpg");
+    background-image:center;
 }
 
 #back-3 {
@@ -190,7 +201,7 @@ body {
       rgba(2, 62, 125, 0.767),
       rgba(20, 20, 20, 0.6)
     ),
-    url("https://images.unsplash.com/photo-1499914485622-a88fac536970?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80");
+    url("../img/bebidas.jpg");
 }
 
 

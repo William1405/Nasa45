@@ -1,5 +1,5 @@
-var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion, crearMiCuenta, ingresarComoInvitado, desplegable; /*Estas son las secciones*/
-			var btn_perros, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_face, btns_volver, btns_iniciarSesion, btns_crearMiCuenta, btn_ingresarComoInvitado, btn_desplegable; /*btns_volver es un ARRAY de botones*/
+var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion, crearMiCuenta, ingresarComoInvitado, desplegable; /*Estas son las secciones*/
+			var btn_bebidas, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_face, btns_volver, btns_iniciarSesion, btns_crearMiCuenta, btn_ingresarComoInvitado, btn_desplegable; /*btns_volver es un ARRAY de botones*/
 			var secciones;
 			var flipCheck = 0;
 
@@ -12,16 +12,17 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 			function crearReferencias(){
 				splash = document.getElementById("splash");
 				home_menu_restaurante = document.getElementById("home_menu_restaurante");
-				perros = document.getElementById("perros");
+				bebidas = document.getElementById("bebidas");
 				sandwichs = document.getElementById("sandwichs");
 				hamburguesas = document.getElementById("hamburguesas");
 				ver_pedido = document.getElementById("ver_pedido");
 				face = document.getElementById("face");
+				desplegable  = document.getElementById("desplegable");
 				iniciarSesion = document.getElementById("iniciarSesion");
 				crearMiCuenta = document.getElementById("crearMiCuenta");
 				ingresarComoInvitado = document.getElementById("ingresarComoInvitado");
-				secciones = [splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion, crearMiCuenta, ingresarComoInvitado];
-				btn_perros = document.getElementById("btn_perros");
+				secciones = [splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion, crearMiCuenta, ingresarComoInvitado, desplegable];
+				btn_bebidas = document.getElementById("btn_bebidas");
 				btn_sandwichs = document.getElementById("btn_sandwichs");
 				btn_hamburguesas = document.getElementById("btn_hamburguesas");
 				btn_ver_pedido = document.getElementById("btn_ver_pedido");
@@ -30,17 +31,19 @@ var splash, home_menu_restaurante, perros, sandwichs, hamburguesas, ver_pedido, 
 				btn_crearMiCuenta = document.getElementById("btn_crearMiCuenta");
 				btn_ingresarComoInvitado = document.getElementById("btn_ingresarComoInvitado");
 				btns_volver = document.querySelectorAll(".volver");
+				btn_desplegable = document.getElementById("btn_desplegable");
 			}
 
 			function agregarEventos(){
-				/*btn_perros.addEventListener("click",()=>{irA(perros);});
+				btn_bebidas.addEventListener("click",()=>{irA(bebidas);});
 				btn_sandwichs.addEventListener("click",()=>{irA(sandwichs);});
 				btn_hamburguesas.addEventListener("click",()=>{irA(hamburguesas);});
-				*/btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
+				btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
 				btn_face.addEventListener("click",()=>{irA(face);});
 				btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
 				btn_crearMiCuenta.addEventListener("click",()=>{irA(crearMiCuenta);});
 				btn_ingresarComoInvitado.addEventListener("click",()=>{irA(ingresarComoInvitado);});
+				btn_desplegable.addEventListener("click",()=>{irA(desplegable);});
 				//btn_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
 				for (var i=0;i<=7;i++) {
