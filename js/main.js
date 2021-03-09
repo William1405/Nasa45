@@ -82,4 +82,10 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				home_menu_restaurante.classList.remove("ocultar");
 
 			}
+
+
+			/*Aqui comienza carrito de compras*/
 			
+
+
+			/*Aqui finaliza carrito de compras*/
