@@ -108,7 +108,7 @@
         .btn_hamburguesas{
           background-color: transparent;
           border-color: transparent;
-          
+          cursor:pointer;
           width: 416px;
           height: 120px
         }
@@ -116,7 +116,7 @@
         .btn_bebidas{
           background-color: transparent;
           border-color: transparent;
-          
+          cursor:pointer;
           width: 416px;
           height: 120px
         }
@@ -124,10 +124,11 @@
         .btn_ver_pedido{
           background-color: transparent;
           border-color: transparent;
-          
+          cursor:pointer;
           width: 416px;
           height: 75px
-        }
+        } 
+        
 
 
 
@@ -217,6 +218,7 @@
   height: 100px;
   padding: 1px;
   border-radius: 6px;
+  cursor:pointer;
 
 
 }
@@ -231,6 +233,7 @@
   height: 100px;
   padding: 1px;
   border-radius: 6px;
+  cursor:pointer;
 
 }
 /*------------------------------------*/
