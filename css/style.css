@@ -1,267 +1,265 @@
+* {
+  box-sizing: border-box;
+}
 
-        * {
-            box-sizing: border-box;
-          }
+.boton_personalizado{
+text-decoration: none;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px;
+font-weight: 600;
+font-size: 20px;
+color: #000000;
+background-color: #3939E9;
+border-radius: 6px;
+border: 2px #0016b0;
+}
+.boton_personalizado:hover{
+color: #35353A;
+background-color: #ffffff;
+}
 
-        .boton_personalizado{
-     	text-decoration: none;
-     	padding: 10px;
-     	padding-left: 60px;
-     	padding-right: 60px;
-     	font-weight: 600;
-     	font-size: 20px;
-     	color: #000000;
-     	background-color: #3939E9;
-     	border-radius: 6px;
-     	border: 2px #0016b0;
-         }
-        .boton_personalizado:hover{
-        color: #35353A;
-    	background-color: #ffffff;
-        }
+body {
+  
+  margin: 0;
+}
+section{
+  
+  width: 414px;
+  height:846px;
+  text-align: center;
+}
+#splash{
+  background: #FEFAE0;
+}
+#home_menu_restaurante{
+  background: #FEFAE0;
+}
+#bebidas{
+  background: #FEFAE0;
+}
+#sandwichs{
+  background: #FEFAE0;
+}
+#hamburguesas{
+  background: #FEFAE0;
+}
+#ver_pedido{
+  background: #FEFAE0;
+}
+#face{
+  background: #FEFAE0;
+}
+#iniciarSesion{
+  background: #FEFAE0;
+}
+#crearMiCuenta{
+  background: #FEFAE0;
+}
+#ingresarComoInvitado{
+  background: #FEFAE0;
+}
+#creditos{
+  background: #ECE3E1;
+}   
+#desplegable{
+background: #FEFAE0;
+}
+#instrucciones p{
+  margin:25px;
+  text-align: left;
+}   
+.boton{
+  background-color: Navy;
+  color:white;
+  padding: 10px;
+  text-decoration: none;
+}
 
-        body {
-            
-            margin: 0;
-        }
-        section{
-            
-            width: 414px;
-            height:846px;
-            text-align: center;
-         }
-        #splash{
-            background: #FEFAE0;
-        }
-        #home_menu_restaurante{
-            background: #FEFAE0;
-        }
-        #bebidas{
-            background: #FEFAE0;
-        }
-        #sandwichs{
-            background: #FEFAE0;
-        }
-        #hamburguesas{
-            background: #FEFAE0;
-        }
-        #ver_pedido{
-            background: #FEFAE0;
-        }
-        #face{
-            background: #FEFAE0;
-        }
-        #iniciarSesion{
-            background: #FEFAE0;
-        }
-        #crearMiCuenta{
-            background: #FEFAE0;
-        }
-        #ingresarComoInvitado{
-            background: #FEFAE0;
-        }
-        #creditos{
-            background: #ECE3E1;
-        }   
-        #desplegable{
-          background: #FEFAE0;
-        }
-        #instrucciones p{
-            margin:25px;
-            text-align: left;
-        }   
-        .boton{
-            background-color: Navy;
-            color:white;
-            padding: 10px;
-            text-decoration: none;
-        }
+.volver{
+  margin-left: -300px;
+  line-height: 50px;
+  background-image:url("../img/face.png");
 
-        .volver{
-            margin-left: -300px;
-            line-height: 50px;
-            background-image:url("../img/face.png");
+}
 
-        }
+.ocultar{
+  display: none;
+}
 
-        .ocultar{
-            display: none;
-        }
-        
 
-        #logossss{
-            width:50px;
-            height:50px;
+#logossss{
+  width:50px;
+  height:50px;
 
-            margin-right: -300px;
-    
-        }
+  margin-right: -300px;
 
-        .btn_sandwichs{
-          background-color: transparent;
-          border-color: transparent;
+}
 
-          width: 416px;
-          height: 120px
-        }
+.btn_sandwichs{
+background-color: transparent;
+border-color: transparent;
 
-        .btn_hamburguesas{
-          background-color: transparent;
-          border-color: transparent;
-          cursor:pointer;
-          width: 416px;
-          height: 120px
-        }
+width: 416px;
+height: 120px
+}
 
-        .btn_bebidas{
-          background-color: transparent;
-          border-color: transparent;
-          cursor:pointer;
-          width: 416px;
-          height: 120px
-        }
+.btn_hamburguesas{
+background-color: transparent;
+border-color: transparent;
+cursor:pointer;
+width: 416px;
+height: 120px
+}
 
-        .btn_ver_pedido{
-          background-color: transparent;
-          border-color: transparent;
-          cursor:pointer;
-          width: 416px;
-          height: 75px
-        } 
-        
+.btn_bebidas{
+background-color: transparent;
+border-color: transparent;
+cursor:pointer;
+width: 416px;
+height: 120px
+}
+
+.btn_ver_pedido{
+background-color: transparent;
+border-color: transparent;
+cursor:pointer;
+width: 416px;
+height: 75px
+} 
 
 
 
-    
 
-        #icono_nave {
-            width: 50px;
-            height: 50px;
-            margin-right: -20em;
-            object-position: 20%;
-            position: relative;
-            top: -200px;
-            right: -10px;
-        }
 
-        #btn_irAlHome {
-            width: 35px;
-            height: 35px;
-            margin-left: : -20em;
-            object-position: 20%;
-            position: relative;
-            top: -225px;
-            left: -50px;
-            border-radius: 6px;
-        }
 
-        #logo {
-            width: 100px;
-            height: 100px;
-            position: relative;
-            /*top: -200px;
-            margin-bottom: -50%;*/
-        }
+#icono_nave {
+  width: 50px;
+  height: 50px;
+  margin-right: -20em;
+  object-position: 20%;
+  position: relative;
+  top: -200px;
+  right: -10px;
+}
+
+#btn_irAlHome {
+  width: 35px;
+  height: 35px;
+  margin-left: : -20em;
+  object-position: 20%;
+  position: relative;
+  top: -225px;
+  left: -50px;
+  border-radius: 6px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  /*top: -200px;
+  margin-bottom: -50%;*/
+}
 /*Barra naveación*/
 .cl-white { color: white; }
 .container2 {
-  height: 100%;
-  max-width: 600px;
-  min-width: 450px;
-  margin: auto;
-  background-color: #FEFAE0;
-  padding: 20px;
+height: 100%;
+max-width: 600px;
+min-width: 450px;
+margin: auto;
+background-color: #FEFAE0;
+padding: 20px;
 }
 .container{
-  position: absolute;
-    width: 100%;
-  padding-top: 75px !important;
-  padding: 10px;
-  background-color:#FEFAE0;
+position: absolute;
+width: 100%;
+padding-top: 75px !important;
+padding: 10px;
+background-color:#FEFAE0;
 }
 .container3{
-  position: bottom;
-    width: 100%;
-  padding-bottom: : 15px !important;
-  padding: 0px;
-  background-color:#979DAC;
+position: bottom;
+width: 100%;
+padding-bottom: : 15px !important;
+padding: 0px;
+background-color:#979DAC;
 }
 
 /* Icons */
 /*.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
+font-family: 'Material Icons';
+font-weight: normal;
+font-style: normal;
+font-size: 24px;
+line-height: 1;
+letter-spacing: normal;
+text-transform: none;
+display: inline-block;
+white-space: nowrap;
+word-wrap: normal;
+direction: ltr;
+-webkit-font-feature-settings: 'liga';
+-webkit-font-smoothing: antialiased;
 }
-
 .material-icons.cl-white { color: white; }*/
 
 /* Buttons */
 .btn-transparent{
-  background-image:url("../img/menu.png");
-  background-color: transparent;
-  background-repeat:no-repeat;
-  
-  border-color: transparent;
-  background-position:center;
-  width: 100px;
-  height: 100px;
-  padding: 1px;
-  border-radius: 6px;
-  cursor:pointer;
+background-image:url("../img/menu.png");
+background-color: transparent;
+background-repeat:no-repeat;
+
+border-color: transparent;
+background-position:center;
+width: 100px;
+height: 100px;
+padding: 1px;
+border-radius: 6px;
+cursor:pointer;
 
 
 }
-.btn-transparent1 .face{
-  background-image:url("../img/face.png");
-  background-color: transparent;
-  background-repeat:no-repeat;
-  
-  border-color: transparent;
-  background-position:center;
-  width: 100px;
-  height: 100px;
-  padding: 1px;
-  border-radius: 6px;
-  cursor:pointer;
+.btn-transparent1{
+background-image:url("../img/face.png");
+background-color: transparent;
+background-repeat:no-repeat;
+
+border-color: transparent;
+background-position:center;
+width: 100px;
+height: 100px;
+padding: 1px;
+border-radius: 6px;
+cursor:pointer;
 
 }
 /*------------------------------------*/
 /* Navigation */
 nav{
-  background-color: #023e7d;
-  justify-content: space-between;
-  display: flex;
-  padding: 2px;
-  margin-bottom: px;
-  color: white;
+background-color: #023e7d;
+justify-content: space-between;
+display: flex;
+padding: 2px;
+margin-bottom: px;
+color: white;
 }
 
 .fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
 }
 
 nav .footer{
-  background-color: #979dac;
-  justify-content: space-between;
-  display: flex;
-  padding: 2px;
-  margin-bottom: px;
-  color: white;
+background-color: #979dac;
+justify-content: space-between;
+display: flex;
+padding: 2px;
+margin-bottom: px;
+color: white;
 }
 
 
@@ -295,81 +293,76 @@ z-index:2000;
 
 
 .btnStyle{
-	background-color: #7d7d7e;
-	display: inline-block;
-	text-decoration: none;
-	font-size: 18px;
-	color: #fff;
-	padding: 7px 10px;
-	letter-spacing: .1em;
-	border-radius: 3px;
-	z-index: 1;
-	cursor: pointer;
-	transition: all .2s ease-in-out;
+background-color: #7d7d7e;
+display: inline-block;
+text-decoration: none;
+font-size: 18px;
+color: #fff;
+padding: 7px 10px;
+letter-spacing: .1em;
+border-radius: 3px;
+z-index: 1;
+cursor: pointer;
+transition: all .2s ease-in-out;
 }
 
 .btnStyle:hover{
-	background-color: #874C62;
-	box-shadow: 0px 3px 6px rgba(0, 0, 0, .16), 0px 6px 10px rgba(0, 0, 0, .23);
-	transform: scale(1.05, 1.05);
+background-color: #874C62;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, .16), 0px 6px 10px rgba(0, 0, 0, .23);
+transform: scale(1.05, 1.05);
 }
 
 
 .btnStyle2{ /*Color del boton Carrito*/
-	background-color: #f8f6f7;
+background-color: #f8f6f7;
 }
 
 .btnStyle2:hover{
-	background-color: #C98474;
+background-color: #C98474;
 }
 
 .btnStyle3{ /*Color boton de annadir ingredientes y annadir carrito*/
-	background-color: #5b5b5c;
+background-color: #5b5b5c;
 }
 
 
 .btnStyle3:hover{
-	background-color: #F2D388;
+background-color: #F2D388;
 }
 
 /*
 .toggleCart{
-	position: relative;
+position: relative;
 }
-
 .fa-circle {
-  font-size: 21px !important;
-  color: #C98474 ;
+font-size: 21px !important;
+color: #C98474 ;
 }
 */
 
 /*
 .cart{
-	width: 200px;
-	position: fixed;
-	top: 60px;
-	bottom: 0px;
-	right: -300px;
-	overflow-x: hidden;
-	overflow-y: scroll;
-
-	z-index: 1;
-	background-color: #874C62;
-	padding: 30px;
-	box-shadow: 2px 0 20px 5px rgba(0, 0, 0, 0.24);
-
-	transition: all 0.25s ease-in-out;
+width: 200px;
+position: fixed;
+top: 60px;
+bottom: 0px;
+right: -300px;
+overflow-x: hidden;
+overflow-y: scroll;
+z-index: 1;
+background-color: #874C62;
+padding: 30px;
+box-shadow: 2px 0 20px 5px rgba(0, 0, 0, 0.24);
+transition: all 0.25s ease-in-out;
 }
-
 .body-content{
-	position: relative;
-	right: 0px;
-	width: 80%;
-	margin: 0px auto;
-	display: flex;
-	justify-content: space-around;
-
-	transition: all .2s ease-in-out;
+position: relative;
+right: 0px;
+width: 80%;
+margin: 0px auto;
+display: flex;
+justify-content: space-around;
+transition: all .2s ease-in-out;
 }*/
 
 
@@ -377,65 +370,64 @@ z-index:2000;
 /* orders */
 
 .recipe-menu{
-	margin-top: 100px;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+margin-top: 100px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
 }
 
 .recipe{
-	background-image: url('http://mariecatribs.com/assets/styles/images/drawn-frame-big.png');
-	background-size: 100% 100%;
-	padding: 10px;
-  margin-bottom: 40px;
-	width: 300px;
-	position: relative;
+background-image: url('http://mariecatribs.com/assets/styles/images/drawn-frame-big.png');
+background-size: 100% 100%;
+padding: 10px;
+margin-bottom: 40px;
+width: 300px;
+position: relative;
 }
 
-/*IMAGENES DE HAMBURGUESASSSSSSSSSSSSSSSSSSSSSSSS*/
-/*
-.recipe img{ 
-	width: 50%;
-	height: 50%;
+
+.recipe img{
+width: 20%;
+height: 20%;
 }
-*/
+
 
 .name{
-  font-size: 23px;
-  text-align: center;
+font-size: 23px;
+text-align: center;
 }
 
 .price {
-  font-weight: bold;
-  font-size: 22px;
-  padding: 0px 15px;
+font-weight: bold;
+font-size: 22px;
+padding: 0px 15px;
 }
 
 .recipe:hover > .addToCart{
-	opacity: 1;
+opacity: 1;
 }
 
-/*
+
 .addToCart { 
-	opacity: 0;
-    position: absolute;
-    top: 70%;
-    left: 28%;
-    transition: all .2s ease-in-out;
-}*/
+opacity: 0;
+position: absolute;
+top: 70%;
+left: 28%;
+transition: all .2s ease-in-out;
+}
 
 .checkOrder{
-	padding: 50px;
+padding: 50px;
 }
 
 .checkOrder {
-    padding: 29px 50px !important;
+padding: 29px 50px !important;
 }
 
 
 .listHeading {
-  text-align: center;
-  padding: 20px 0;
+text-align: center;
+padding: 20px 0;
 }
 
 .listOfIngredients{
@@ -448,142 +440,142 @@ margin: 0px 5px;
 }
 
 .addIngredientWrap{
-	display: flex;
-	margin: 5px 0;
+display: flex;
+margin: 5px 0;
 }
 
 .addIngredientWrap input{
-	width: 60%;
+width: 60%;
 }
 
 .addIngredientWrap a{
-	padding: 2px 6px;
-	margin: 0 5px;
-	font-size: 15px;
+padding: 2px 6px;
+margin: 0 5px;
+font-size: 15px;
 }
 
 .cancelInput{
-	background-color: #B33232;
+background-color: #B33232;
 }
 
 .orderName {
-  padding: 13px 0px 8px 0px;
+padding: 13px 0px 8px 0px;
 }
 
 .orderPrice{
-	float: right;
+float: right;
 }
 
 hr {
-  margin: 25px 0 5px 0;
+margin: 25px 0 5px 0;
 }
 
 .delBtn {
-  float: right;
-  color: #F2D388;
-  cursor: pointer;
+float: right;
+color: #F2D388;
+cursor: pointer;
 }
 
 .totalDialog{
-	display: inline-block;
-	float: right;
+display: inline-block;
+float: right;
 }
 
 .cart > h2 > span{
-	margin-left: 15px
+margin-left: 15px
 }
 
 .finishOrder {
-  width: 200px;
-  position: fixed;
-  bottom: 0;
-  right: -265px;
-  z-index: 2;
-  padding: 6px 28px;
-  border-radius: 0;
-  text-align: center;
+width: 200px;
+position: fixed;
+bottom: 0;
+right: -265px;
+z-index: 2;
+padding: 6px 28px;
+border-radius: 0;
+text-align: center;
 }
 
 
 #finishOrderDialog{
-	padding: 30px;
-	display: flex;
-	justify-content: space-around;
+padding: 30px;
+display: flex;
+justify-content: space-around;
 }
 
 #finalOrderList{
-	width: 40%;
+width: 40%;
 }
 
 #finalOrderList h3{
-	text-align: center;
+text-align: center;
 }
 
 #finalOrderList ol{
-	margin: 10px 15px;
+margin: 10px 15px;
 }
 
 #buyerInfo {
-  width: 60%;
-  margin: 0 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+width: 60%;
+margin: 0 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 
 
 #buyerInfo input {  /*Permite dejar espacio o renglon en info comprador*/
-  margin: 5px 0;
-  padding: 3px;
-  width: 90%;
+margin: 5px 0;
+padding: 3px;
+width: 90%;
 }
 
 #buyerInfo .order{
-  display: block;
-  width: 50%;
-  margin-top: 10px;
-  text-align:center;
+display: block;
+width: 50%;
+margin-top: 10px;
+text-align:center;
 }
 
 
 #buyerInfo input::-webkit-input-placeholder {
-  text-align: center;
+text-align: center;
 }
 
 #thanksMessage{
-	padding: 20px;
+padding: 20px;
 }
 
 
 /* Dialog Style */
 .ui-dialog {
-  z-index: 2;
-  box-shadow: 2px 0 20px 5px rgba(0, 0, 0, 0.24);
+z-index: 2;
+box-shadow: 2px 0 20px 5px rgba(0, 0, 0, 0.24);
 background-color: #fff;
 padding: 30px;
 }
 
 
 .ui-draggable-handle {
-  position: absolute;
-  background-color: #A7D2CB;
-  width: 100%;
-  top: 0;
-  left: 0;
-  padding: 5px;
-  box-sizing: border-box;
-  text-align: center;
-  z-index: 999;
+position: absolute;
+background-color: #A7D2CB;
+width: 100%;
+top: 0;
+left: 0;
+padding: 5px;
+box-sizing: border-box;
+text-align: center;
+z-index: 999;
 }
 
 .ui-button {
-  background-color: #874C62;
-  border: none;
-  border-radius: 3px;
-  padding: 3px 5px;
-  float: right;
-  cursor: pointer;
-  transition: all .2s ease-in-out;
+background-color: #874C62;
+border: none;
+border-radius: 3px;
+padding: 3px 5px;
+float: right;
+cursor: pointer;
+transition: all .2s ease-in-out;
 }
 
 .ui-button:hover{

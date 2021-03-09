@@ -9,9 +9,6 @@
 	<link REL=StyleSheet HREF="css/carrito-compras.css" TYPE="text/css" MEDIA=screen>
     <script language="javascript" src="js/main.js" type="text/javascript"></script>
     <script language="javascript" src="js/cardsloop.js" type="text/javascript"></script>
-
-	<script  src="js\main.js"></script><!--este si se pone???-->
-
 	<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">-->
 	<link rel="stylesheet" href="css/effect-ball.css" TYPE="text/css" MEDIA=screen>
@@ -49,7 +46,8 @@
     			<button id="btn_desplegable" name="btn_desplegable" class="btn-transparent">
       			</button> 			
       			<img id="logo" src="img\logo.png" alt="">
-       			<a href="javascript:void(0);" class="btn-transparent1 face">&lt;></a>
+       			<button id="btn_face" name="btn_face"class="btn-transparent1 ">
+      			</button>
   			</nav>
   		</div>
   		
@@ -251,50 +249,49 @@
 			
 				  <div class="recipe-menu">
 			
+					
 					<!-- Receta 1 -->
 					<div class="recipe">
-					  <p class="name">Hamburgesas 1</p>
-					  <!--<img src="https://www.kingsford.com/wp-content/uploads/2014/11/kfd-howtohamburger-Burgers_5_0391-1024x621.jpg">-->
-					  <img src="img\hamburguesas.jpg" alt="">
-					  <a class="btnStyle3 btnStyle addToCart" id="addToCartHamburger">Añadir al carrito</a>
-					  <p class="price"><span>$</span>15.000</p>
-					  <div id="checkOrderHamburger" title="Hamburger">
-						<h3 class="listHeading">Lista de Ingredientes:</h3>
-						<ul class="listOfIngredients" id="recipe1">
-						  <li><input type="checkbox" checked>Tomate</li>
-						  <li><input type="checkbox" checked>Lechuga</li>
-						  <li><input type="checkbox" checked>Cebolla</li>
-						  <li><input type="checkbox" checked>Tocineta</li>
-						  <li><input type="checkbox" checked>Queso Cheddar</li>
-						</ul>
-						<a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
-						<a class="btnStyle listOver">Listo</a>
-						<h4 class="totalDialog" id="totalDialog1">Total: <span>$</span>15.000</h4>
-					  </div>
-					</div>
-
-					<!-- Receta 2 -->
-					<div class="recipe">
-						<p class="name">Hamburgesas 2</p>
-						<img src="https://www.kingsford.com/wp-content/uploads/2014/11/kfd-howtohamburger-Burgers_5_0391-1024x621.jpg">
-						<!--<img src="img\hamburguesas.jpg" alt="">-->
-						<a class="btnStyle3 btnStyle addToCart" id="addToCartHamburger">Añadir al carrito</a>
-						<p class="price"><span>$</span>20.000</p>
-						<div id="checkOrderHamburger" title="Hamburger">
+						<p class="name">Hamburguesa1</p>
+						<img src="img\hamburguesas.jpg" alt="">
+						<a class="btnStyle3 btnStyle addToCart" id="addToCartHamburguesa1">Añadir al Carrito</a>
+						<p class="price"><span>$</span>15000</p>
+						<div id="checkOrderHamburguesa1" title="Hamburguesa1">
 						  <h3 class="listHeading">Lista de Ingredientes:</h3>
 						  <ul class="listOfIngredients" id="recipe1">
-							<li><input type="checkbox" checked>Tomate</li>
+							<li><input type="checkbox" checked>Tomate Bun</li>
 							<li><input type="checkbox" checked>Lechuga</li>
 							<li><input type="checkbox" checked>Cebolla</li>
 							<li><input type="checkbox" checked>Tocineta</li>
 							<li><input type="checkbox" checked>Queso Cheddar</li>
 						  </ul>
 						  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
-						  <a class="btnStyle listOver">Listo</a>
-						  <h4 class="totalDialog" id="totalDialog1">Total: <span>$</span>20.000</h4>
+						  <a class="btnStyle listOver">Listo!</a>
+						  <h4 class="totalDialog" id="totalDialog1">Total: <span>$</span>15000</h4>
 						</div>
 					  </div>
-
+			  
+					  <!-- Receta2 -->
+					  <div class="recipe">
+						<p class="name">Hamburguesa2</p>
+						<img src="https://www.kingsford.com/wp-content/uploads/2014/11/kfd-howtohamburger-Burgers_5_0391-1024x621.jpg">
+						<a class="btnStyle3 btnStyle addToCart" id="addToCartHamburguesa2">Añadir al Carrito</a>
+						<p class="price"><span>$</span>20000</p>
+						<div id="checkOrderHamburguesa2" title="Hamburguesa2">
+						  <h3 class="listHeading">Lista de Ingredientes:</h3>
+						  <ul class="listOfIngredients" id="recipe2">
+							<li><input type="checkbox" checked>Pepinillos</li>
+							<li><input type="checkbox" checked>Aguacate</li>
+							<li><input type="checkbox" checked>Ripio de Papa</li>
+							<li><input type="checkbox" checked>Queso Azul</li>
+							<li><input type="checkbox" checked>Queso Cheddar</li>
+						  </ul>
+						  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
+						  <a class="btnStyle listOver">Listo!</a>
+						  <h4 class="totalDialog" id="totalDialog2">Total: <span>$</span>20000</h4>
+						</div>
+					  </div>
+			  
 
 
 
@@ -322,8 +319,7 @@
 						<h3>Lo tendremos listo pronto</h3>
 						</div>
 					<!-- partial -->
-					<script  src="js\main.js"></script>
-					<!--src="img\logo.png"-->
+					<script  src="./script.js"></script>
 
 
 
