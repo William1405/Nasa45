@@ -48,7 +48,7 @@
         #ver_pedido{
             background: #FEFAE0;
         }
-        #face{
+        #login{
             background: #FEFAE0;
         }
         #iniciarSesion{
@@ -71,16 +71,22 @@
             text-align: left;
         }   
         .boton{
-            background-color: Navy;
-            color:white;
-            padding: 10px;
-            text-decoration: none;
-        }
+            background-color: transparent;
+            background-repeat:no-repeat;
+            
+            border-color: transparent;
+            background-position:center;
+            width: 100px;
+            height: 100px;
+            padding: 1px;
+            border-radius: 6px;
+                  }
 
         .volver{
-            margin-left: -300px;
-            line-height: 50px;
-            background-image:url("../img/face.png");
+            
+            /*margin-left: -300px;
+            line-height: 50px;*/
+            background-image:url("../img/flecha.png");
 
         }
 
@@ -218,12 +224,12 @@
   height: 100px;
   padding: 1px;
   border-radius: 6px;
-  cursor:pointer;
-
+  
 
 }
-.btn-transparent1 .face{
-  background-image:url("../img/face.png");
+
+.btn-transparent1{
+  background-image:url("../img/carrito.png");
   background-color: transparent;
   background-repeat:no-repeat;
   
@@ -233,7 +239,10 @@
   height: 100px;
   padding: 1px;
   border-radius: 6px;
-  cursor:pointer;
+  
+}
+.inicio{
+  
 
 }
 /*------------------------------------*/
@@ -264,7 +273,7 @@ nav .footer{
   color: white;
 }
 
-
+/*Boton Ver pedrdio*/
 
 .footer{
 
@@ -288,6 +297,7 @@ z-index:2000;
 }
 
 
+<<<<<<< Updated upstream
 
 
 
@@ -593,3 +603,5 @@ transform: scale(1.05, 1.05);
 }
 
 /*Aqui finaliza carrito de compras*/
+=======
+>>>>>>> Stashed changes
