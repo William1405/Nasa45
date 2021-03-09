@@ -1,12 +1,15 @@
-var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, face, iniciarSesion, crearMiCuenta, ingresarComoInvitado, desplegable; /*Estas son las secciones*/
-			var btn_bebidas, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btns_face, btns_volver, btns_iniciarSesion, btns_crearMiCuenta, btn_ingresarComoInvitado, btn_desplegable; /*btns_volver es un ARRAY de botones*/
+var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, iniciarSesion, crearMiCuenta, ingresarComoInvitado, desplegable; /*Estas son las secciones face,*/
+			var btn_bebidas, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btn_face, btns_volver, btns_iniciarSesion, btns_crearMiCuenta, btn_ingresarComoInvitado, btn_desplegable; /*btns_volver es un ARRAY de botones*/
 			var secciones;
 			var flipCheck = 0;
 
 			window.onload = ()=>{
 				crearReferencias();
 				agregarEventos();
-				setTimeout(irAlHome_menu,1500)
+				setTimeout(irAlHome_menu,1500);
+
+
+				
 			}
 
 			function crearReferencias(){
@@ -16,7 +19,7 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				sandwichs = document.getElementById("sandwichs");
 				hamburguesas = document.getElementById("hamburguesas");
 				ver_pedido = document.getElementById("ver_pedido");
-				face = document.getElementById("face");
+				/*face = document.getElementById("face");*/
 				desplegable  = document.getElementById("desplegable");
 				iniciarSesion = document.getElementById("iniciarSesion");
 				crearMiCuenta = document.getElementById("crearMiCuenta");
@@ -26,11 +29,12 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				btn_sandwichs = document.getElementById("btn_sandwichs");
 				btn_hamburguesas = document.getElementById("btn_hamburguesas");
 				btn_ver_pedido = document.getElementById("btn_ver_pedido");
-				btn_face = document.getElementById("btn_face");
+				/*btn_face = document.getElementById("btn_face");*/
 				btn_iniciarSesion = document.getElementById("btn_iniciarSesion");
 				btn_crearMiCuenta = document.getElementById("btn_crearMiCuenta");
 				btn_ingresarComoInvitado = document.getElementById("btn_ingresarComoInvitado");
 				btns_volver = document.querySelectorAll(".volver");
+				btn_face = document.querySelectorAll(".face");
 				btn_desplegable = document.getElementById("btn_desplegable");
 			}
 
@@ -39,7 +43,7 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				btn_sandwichs.addEventListener("click",()=>{irA(sandwichs);});
 				btn_hamburguesas.addEventListener("click",()=>{irA(hamburguesas);});
 				btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
-				btn_face.addEventListener("click",()=>{irA(face);});
+				/*btn_face.addEventListener("click",()=>{irA(face);});*/
 				btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
 				btn_crearMiCuenta.addEventListener("click",()=>{irA(crearMiCuenta);});
 				btn_ingresarComoInvitado.addEventListener("click",()=>{irA(ingresarComoInvitado);});
@@ -49,7 +53,14 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				for (var i=0;i<=7;i++) {
 					//console.log(btns_volver,i);
 					btns_volver[i].addEventListener("click",()=>{irA(home_menu_restaurante);});
+					btn_face[i].addEventListener("click",()=>{irA(home_menu_restaurante);});
 				}
+				/*
+				for (var i=0;i<=7;i++) {
+					//console.log(btns_volver,i);
+					btn_face[i].addEventListener("click",()=>{irA(home_menu_restaurante);});
+				}*/
+				
 				
 				//btns_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
@@ -86,6 +97,6 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 
 			/*Aqui comienza carrito de compras*/
 			
-
+			
 
 			/*Aqui finaliza carrito de compras*/

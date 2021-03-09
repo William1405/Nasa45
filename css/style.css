@@ -222,7 +222,7 @@
 
 
 }
-.btn-transparent1{
+.btn-transparent1 .face{
   background-image:url("../img/face.png");
   background-color: transparent;
   background-repeat:no-repeat;
