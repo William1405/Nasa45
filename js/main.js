@@ -101,10 +101,5 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 
 			/*Aqui comienza carrito de compras*/
 			
-<<<<<<< Updated upstream
-			
-=======
-				
->>>>>>> Stashed changes
 
 			/*Aqui finaliza carrito de compras*/
