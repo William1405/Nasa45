@@ -39,7 +39,7 @@ background-color: #5b5b5c;
 background-color: #F2D388;
 }
 
-/*
+
 .toggleCart{
 position: relative;
 }
@@ -47,15 +47,16 @@ position: relative;
 font-size: 21px !important;
 color: #C98474 ;
 }
-*/
 
-/*
+
+
 .cart{
 width: 200px;
 position: fixed;
 top: 60px;
-bottom: 0px;
-right: -300px;
+bottom: 5px;
+/*right: -300px;*/
+right: -5%;
 overflow-x: hidden;
 overflow-y: scroll;
 z-index: 1;
@@ -72,7 +73,7 @@ margin: 0px auto;
 display: flex;
 justify-content: space-around;
 transition: all .2s ease-in-out;
-}*/
+}
 
 
 
@@ -94,12 +95,12 @@ width: 300px;
 position: relative;
 }
 
-/*
+
 .recipe img{
-width: 50%;
-height: 50%;
+width: 20%;
+height: 20%;
 }
-*/
+
 
 .name{
 font-size: 23px;
@@ -116,14 +117,14 @@ padding: 0px 15px;
 opacity: 1;
 }
 
-/*
+
 .addToCart { 
 opacity: 0;
 position: absolute;
 top: 70%;
 left: 28%;
 transition: all .2s ease-in-out;
-}*/
+}
 
 .checkOrder{
 padding: 50px;
