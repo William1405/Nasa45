@@ -65,16 +65,16 @@ $(document).ready(function() {
 		var priceDialog = 0;
 		$("#recipe"+x).children("li").children("input").each(function () {
 			if($(this).is(":checked")){
-				priceDialog+=3;
+				priceDialog+=2000;
 			}
 				$("#totalDialog"+x+">span").text(priceDialog);
 			$(this).change(function () {
 				if ($(this).is(":checked")) {
-					priceDialog += 3;
+					priceDialog += 2000;
 					console.log(priceDialog);
 					$("#totalDialog"+x+">span").text(priceDialog);
 				}else{
-					priceDialog -= 3;
+					priceDialog -= 2000;
 					$("#totalDialog"+x+">span").text(priceDialog);
 				}
 			})
@@ -107,7 +107,7 @@ $(document).ready(function() {
 				var newCheckbox = '<input type="checkbox" checked>';
         
         for (var i = 0; i < newIngredient.length; i++){
-         $(this).parent().siblings("ul").append("<li>" + newCheckbox + newIngredient[i] + "  (+3$)</li>"); /* ijoooooooooooooooooooooooooooooooooooooooooo en peso colombianos */
+         $(this).parent().siblings("ul").append("<li>" + newCheckbox + newIngredient[i] + "  (+$2000)</li>"); /* ijoooooooooooooooooooooooooooooooooooooooooo en peso colombianos */
         }
 				
 
@@ -159,14 +159,14 @@ $(document).ready(function() {
 		$("#listOfOrders").children("li").children(".orderPrice").children("span").each(function () {
 			var price = parseFloat($(this).text());
 			totalOrderPrice += price;
-			$(".cart > h3 > span").text(totalOrderPrice + "$");
+			$(".cart > h3 > span").text("$" + totalOrderPrice);
 		});
 
 		// remove order from cart
 		$(".delBtn").on("click", function () {
 			var removePrice = $(this).parent().parent().children(".orderPrice").children("span").text();
 			totalOrderPrice -= removePrice;
-			$(".cart > h3 > span").text(totalOrderPrice + "$");
+			$(".cart > h3 > span").text("$" + totalOrderPrice);
 
 			$(this).parents("li").remove();
 			numOfOrders = $("#listOfOrders").children().length;
