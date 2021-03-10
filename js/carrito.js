@@ -45,7 +45,21 @@ $(document).ready(function() {
               closeText: "X"});
 	})
 
+	$("#addToCartBebida1").on("click", function () {
+		$("#checkOrderBebida1").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
 
+	$("#addToCartBebida2").on("click", function () {
+		$("#checkOrderBebida2").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
 	// increase/decrease the price of order if an item is added/removed
 	function checkboxChange(x) {
 		var priceDialog = 0;
