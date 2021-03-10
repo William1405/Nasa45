@@ -76,7 +76,7 @@ color: #C98474 ;
 .cart{
 width: 200px;
 position: fixed;
-top: 60px;
+top: 100px;
 bottom: 5px;
 /*right: -300px;*/
 right: -5%;
@@ -90,7 +90,8 @@ transition: all 0.25s ease-in-out;
 }
 
 .cart h2{
-	text-align: center;
+	/*text-align: center;*/
+	text-align: left;
 	margin-bottom: 10px;
 }
 
@@ -100,7 +101,8 @@ transition: all 0.25s ease-in-out;
 
 /*where the magic happens*/
 #cartToggle:checked ~ div.body-content > .cart{ /* ME PERMITE TRAER O ESCONDER LA BARRA DE LA IZQ CON LISTA DE PEDIDIOS Y VALOR*/
-	right: 0px;
+	/*right: 0px;*/
+	right: -200px;
 }
 
 #cartToggle:checked ~ div.body-content{
@@ -118,7 +120,8 @@ transition: all 0.25s ease-in-out;
 
 .body-content{
 position: relative;
-right: 0px;
+/*right: 0px;*/
+right: 50px;
 width: 80%;
 margin: 0px auto;
 display: flex;
@@ -251,11 +254,15 @@ margin-left: 15px
 width: 200px;
 position: fixed;
 bottom: 0;
+/*bottom: 5px;*/
 /*right: -265px;*/
 z-index: 2;
 padding: 6px 28px;
 border-radius: 0;
 text-align: center;
+
+right: -5%;
+
 }
 
 
