@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$(".num").text(numOfOrders);
 
 	// hide dialogs on start
-	$("#thanksMessage, #checkOrderHamburguesa1, #checkOrderHamburguesa2, #checkOrderPizza, #checkOrderSalad, #checkOrderSpaghetti, #checkOrderRisotto, #finishOrderDialog").hide();
+	$("#thanksMessage, #checkOrderHamburguesa1, #checkOrderHamburguesa2, #checkOrderSanduche1, #checkOrderSanduche2,#checkOrderPizza, #checkOrderSalad, #checkOrderSpaghetti, #checkOrderRisotto, #finishOrderDialog").hide();
 
 	// open dialog on click
 	$("#addToCartHamburguesa1").on("click", function () {
@@ -22,6 +22,23 @@ $(document).ready(function() {
 
 	$("#addToCartHamburguesa2").on("click", function () {
 		$("#checkOrderHamburguesa2").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+
+
+	$("#addToCartSanduche1").on("click", function () {
+		$("#checkOrderSanduche1").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+
+	$("#addToCartSanduche2").on("click", function () {
+		$("#checkOrderSanduche2").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
