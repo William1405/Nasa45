@@ -9,19 +9,19 @@ $(document).ready(function() {
 	$(".num").text(numOfOrders);
 
 	// hide dialogs on start
-	$("#thanksMessage, #checkOrderHamburguesa1, #checkOrderHamburguesa2, #checkOrderSanduche1, #checkOrderSanduche2,#checkOrderPizza, #checkOrderSalad, #checkOrderSpaghetti, #checkOrderRisotto, #finishOrderDialog").hide();
+	$("#thanksMessage, #checkOrderHamburguesa11, #checkOrderHamburguesa12, #checkOrderSanduche31, #checkOrderSanduche32, #checkOrderBebida21, #checkOrderBebida22, #checkOrderPizza, #checkOrderSalad, #checkOrderSpaghetti, #checkOrderRisotto, #finishOrderDialog").hide();
 
 	// open dialog on click
-	$("#addToCartHamburguesa1").on("click", function () {
-		$("#checkOrderHamburguesa1").dialog({
+	$("#addToCartHamburguesa11").on("click", function () {
+		$("#checkOrderHamburguesa11").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartHamburguesa2").on("click", function () {
-		$("#checkOrderHamburguesa2").dialog({
+	$("#addToCartHamburguesa12").on("click", function () {
+		$("#checkOrderHamburguesa12").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
@@ -29,32 +29,32 @@ $(document).ready(function() {
 	})
 
 
-	$("#addToCartSanduche1").on("click", function () {
-		$("#checkOrderSanduche1").dialog({
+	$("#addToCartSanduche31").on("click", function () {
+		$("#checkOrderSanduche31").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartSanduche2").on("click", function () {
-		$("#checkOrderSanduche2").dialog({
+	$("#addToCartSanduche32").on("click", function () {
+		$("#checkOrderSanduche32").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartBebida1").on("click", function () {
-		$("#checkOrderBebida1").dialog({
+	$("#addToCartBebida21").on("click", function () {
+		$("#checkOrderBebida21").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartBebida2").on("click", function () {
-		$("#checkOrderBebida2").dialog({
+	$("#addToCartBebida22").on("click", function () {
+		$("#checkOrderBebida22").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
@@ -81,8 +81,12 @@ $(document).ready(function() {
 		});
 	}
 
-	$('#recipe1').children('li').click(checkboxChange(1));
-	$('#recipe2').children('li').click(checkboxChange(2));
+	$('#recipe11').children('li').click(checkboxChange(11));
+	$('#recipe12').children('li').click(checkboxChange(12));
+	$('#recipe21').children('li').click(checkboxChange(21));
+	$('#recipe22').children('li').click(checkboxChange(22));
+	$('#recipe31').children('li').click(checkboxChange(31));
+	$('#recipe32').children('li').click(checkboxChange(32));
 	
 
 	$(".addIngredient").on("click", function () {
@@ -107,8 +111,12 @@ $(document).ready(function() {
         }
 				
 
-				$('#recipe1').children('li').click(checkboxChange(1));
-				$('#recipe2').children('li').click(checkboxChange(2));
+				$('#recipe11').children('li').click(checkboxChange(11));
+				$('#recipe12').children('li').click(checkboxChange(12));
+				$('#recipe21').children('li').click(checkboxChange(21));
+				$('#recipe22').children('li').click(checkboxChange(22));
+				$('#recipe31').children('li').click(checkboxChange(31));
+				$('#recipe32').children('li').click(checkboxChange(32));
 				
 
 				$(this).parent().remove();

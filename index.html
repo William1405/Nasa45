@@ -23,7 +23,7 @@
 
 
 <body>
-	<!-- Splash -->
+	<!-- Splash *************************************************************************************************************-->
 	<section id="splash">
 		<div class="loader-wrap">
 	    	<div class="container2 loader-brand">
@@ -45,7 +45,7 @@
 	  	</div>
 		
 	</section>	
-	<!-- Home Menu Restaurante -->
+	<!-- Home Menu Restaurante **********************************************************************************************-->
 	<section id="home_menu_restaurante" class="ocultar">
 		<div class="container">
   			<nav class="fixed-top">
@@ -139,7 +139,10 @@
 		
 	</section>	
 
+	<!-- SECCION DE BEBIDAS **************************************************************************************************-->
+
 	<section id="bebidas" class="ocultar">
+		
 		
 		<div class="container">
   			<nav class="fixed-top">
@@ -147,7 +150,27 @@
       			<img id="logo" src="img\logo.png" alt="">
        			<a href="javascript:void(0);" class="btn-transparent1 inicio"></a>
   			</nav>
+		</div>
 
+
+		<!--AQUI COMIENZA CARRITO DE COMPRAS **********************************************************************************************************************--->
+
+		<input type="checkbox" id="cartToggle" name="toggle" />
+
+        <!-- Menu -->
+        <nav class="navbar">
+        <h2 id="logo">Realizando pedido, escogiendo productos</h2>
+        <div>
+          <label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true">...CARRITO...</i>
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <span class="num"></span>
+            </label>
+        </div>
+        </nav><!-- End of Navigation -->
+
+
+
+		<div class="body-content">
 
 			   <!-- Cart -->
 		  <nav class="cart">
@@ -162,15 +185,15 @@
 		  <div class="recipe-menu">
 			
 					
-			<!-- Receta 1 BEBIDA-->
+			<!-- Receta 21 BEBIDA-->
 			<div class="recipe">
-				<p class="name">Bebida1</p>
+				<p class="name">Bebida21</p>
 				<img src="img\hamburguesas.jpg" alt="">
-				<a class="btnStyle3 btnStyle addToCart" id="addToCartBebida1">Añadir al Carrito</a>
+				<a class="btnStyle3 btnStyle addToCart" id="addToCartBebida21">Añadir al Carrito</a>
 				<p class="price"><span>$</span>15000</p>
-				<div id="checkOrderBebida1" title="Bebida1">
+				<div id="checkOrderBebida21" title="Bebida21">
 				  <h3 class="listHeading">Lista de Ingredientes:</h3>
-				  <ul class="listOfIngredients" id="recipe1">
+				  <ul class="listOfIngredients" id="recipe21">
 					<li><input type="checkbox" checked>Tomate Bun</li>
 					<li><input type="checkbox" checked>Lechuga</li>
 					<li><input type="checkbox" checked>Cebolla</li>
@@ -179,19 +202,19 @@
 				  </ul>
 				  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
 				  <a class="btnStyle listOver">Listo!</a>
-				  <h4 class="totalDialog" id="totalDialog1">Total: <span>$</span>15000</h4>
+				  <h4 class="totalDialog" id="totalDialog21">Total: <span>$</span>15000</h4>
 				</div>
 			  </div>
 	  
-			  <!-- Receta 2 BEBIDA-->
+			  <!-- Receta 22 BEBIDA-->
 			  <div class="recipe">
-				<p class="name">Bebida2</p>
+				<p class="name">Bebida22</p>
 				<img src="https://www.kingsford.com/wp-content/uploads/2014/11/kfd-howtohamburger-Burgers_5_0391-1024x621.jpg">
-				<a class="btnStyle3 btnStyle addToCart" id="addToCartBebida2">Añadir al Carrito</a>
+				<a class="btnStyle3 btnStyle addToCart" id="addToCartBebida22">Añadir al Carrito</a>
 				<p class="price"><span>$</span>20000</p>
-				<div id="checkOrderBebida2" title="Bebida2">
+				<div id="checkOrderBebida22" title="Bebida22">
 				  <h3 class="listHeading">Lista de Ingredientes:</h3>
-				  <ul class="listOfIngredients" id="recipe2">
+				  <ul class="listOfIngredients" id="recipe22">
 					<li><input type="checkbox" checked>Pepinillos</li>
 					<li><input type="checkbox" checked>Aguacate</li>
 					<li><input type="checkbox" checked>Ripio de Papa</li>
@@ -200,28 +223,28 @@
 				  </ul>
 				  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
 				  <a class="btnStyle listOver">Listo!</a>
-				  <h4 class="totalDialog" id="totalDialog2">Total: <span>$</span>20000</h4>
+				  <h4 class="totalDialog" id="totalDialog22">Total: <span>$</span>20000</h4>
 				</div>
 			  </div>
 
 
 
-
-
-
+			  <!--
   		</div>
   		
 		<br>
 		<h1>Perros Nasa 45</h1>
 		<br><br><br><br><br><br>		
-		<img id="icono_nave" src="img\icono_nave.png" alt="">
+		<img id="icono_nave" src="img\icono_nave.png" alt="">-->
 		<!--<button id="btn_volver" name="btn_volver"> ---- </button>-->
-    	<br>
+    	<!--<br>-->
     	<!--<button>Boton 1</button>-->
-    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<!--<img id="logo" src="img\logo.png" alt=""><br>
     	<br>
+			-->
     	
 	</section>	
+
 	<section id="desplegable" class="ocultar">
 		<div class="container">
   			<nav class="fixed-top">
@@ -234,6 +257,9 @@
   		
 	</section>
 
+	<!-- SECCION DE SANDUCHES **************************************************************************************************-->
+
+
 	<section id="sandwichs" class="ocultar">
 		
 		<div class="container">
@@ -243,6 +269,30 @@
        			<a href="javascript:void(0);" class="btn-transparent1 inicio"></a>
   			</nav>
   		</div>
+
+
+		  <!--AQUI COMIENZA CARRITO DE COMPRAS **********************************************************************************************************************--->
+
+		<input type="checkbox" id="cartToggle" name="toggle" />
+
+        <!-- Menu -->
+        <nav class="navbar">
+        <h2 id="logo">Realizando pedido, escogiendo productos</h2>
+        <div>
+          <label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true">...CARRITO...</i>
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <span class="num"></span>
+            </label>
+        </div>
+        </nav><!-- End of Navigation -->
+
+
+
+		<div class="body-content">
+
+
+
+
 		  <!-- Cart -->
 		  <nav class="cart">
 			<h3>Lista de pedidos: <span>$0</span></h3>
@@ -256,15 +306,15 @@
 		  <div class="recipe-menu">
 			
 					
-			<!-- Receta 1 SANDUCHE-->
+			<!-- Receta 31 SANDUCHE-->
 			<div class="recipe">
-				<p class="name">Sanduche1</p>
+				<p class="name">Sanduche31</p>
 				<img src="img\hamburguesas.jpg" alt="">
-				<a class="btnStyle3 btnStyle addToCart" id="addToCartSanduche1">Añadir al Carrito</a>
+				<a class="btnStyle3 btnStyle addToCart" id="addToCartSanduche31">Añadir al Carrito</a>
 				<p class="price"><span>$</span>15000</p>
-				<div id="checkOrderSanduche1" title="Sanduche1">
+				<div id="checkOrderSanduche31" title="Sanduche31">
 				  <h3 class="listHeading">Lista de Ingredientes:</h3>
-				  <ul class="listOfIngredients" id="recipe1">
+				  <ul class="listOfIngredients" id="recipe31">
 					<li><input type="checkbox" checked>Tomate Bun</li>
 					<li><input type="checkbox" checked>Lechuga</li>
 					<li><input type="checkbox" checked>Cebolla</li>
@@ -273,19 +323,19 @@
 				  </ul>
 				  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
 				  <a class="btnStyle listOver">Listo!</a>
-				  <h4 class="totalDialog" id="totalDialog1">Total: <span>$</span>15000</h4>
+				  <h4 class="totalDialog" id="totalDialog31">Total: <span>$</span>15000</h4>
 				</div>
 			  </div>
 	  
-			  <!-- Receta2 SANDUCHE-->
+			  <!-- Receta 32 SANDUCHE-->
 			  <div class="recipe">
-				<p class="name">Sanduche2</p>
+				<p class="name">Sanduche32</p>
 				<img src="https://www.kingsford.com/wp-content/uploads/2014/11/kfd-howtohamburger-Burgers_5_0391-1024x621.jpg">
-				<a class="btnStyle3 btnStyle addToCart" id="addToCartSanduche2">Añadir al Carrito</a>
+				<a class="btnStyle3 btnStyle addToCart" id="addToCartSanduche32">Añadir al Carrito</a>
 				<p class="price"><span>$</span>20000</p>
-				<div id="checkOrderSanduche2" title="Sanduche2">
+				<div id="checkOrderSanduche32" title="Sanduche32">
 				  <h3 class="listHeading">Lista de Ingredientes:</h3>
-				  <ul class="listOfIngredients" id="recipe2">
+				  <ul class="listOfIngredients" id="recipe32">
 					<li><input type="checkbox" checked>Pepinillos</li>
 					<li><input type="checkbox" checked>Aguacate</li>
 					<li><input type="checkbox" checked>Ripio de Papa</li>
@@ -294,7 +344,7 @@
 				  </ul>
 				  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
 				  <a class="btnStyle listOver">Listo!</a>
-				  <h4 class="totalDialog" id="totalDialog2">Total: <span>$</span>20000</h4>
+				  <h4 class="totalDialog" id="totalDialog32">Total: <span>$</span>20000</h4>
 				</div>
 			  </div>
 
@@ -307,9 +357,12 @@
 		
 	</section>	
 
+	<!-- SECCION DE HAMBURGUESAS **************************************************************************************************-->
+
+
 	<section id="hamburguesas" class="ocultar">
         
-		<a href="javascript:void(0);" class="boton volver">&lt;</a>
+		<!--<a href="javascript:void(0);" class="boton volver">&lt;</a>-->
 		<!--<div class="container">
   			<nav class="fixed-top">
     			<a href="javascript:void(0);" class="boton volver"></a>				
@@ -318,16 +371,16 @@
   			</nav>
   		</div>
   		-->
-		<br>
+		<!--<br>
 		<h1>Hamburguesas Nasa 45</h1>
 		<br><br><br><br><br><br>		
-		<img id="icono_nave" src="img\icono_nave.png" alt="">
+		<img id="icono_nave" src="img\icono_nave.png" alt="">-->
 		<!--<button id="btn_volver" name="btn_volver"> ---- </button>-->
-    	<br>
+    	<!--<br>-->
     	<!--<button>Boton 1</button>-->
-    	<img id="logo" src="img\logo.png" alt=""><br>
+    	<!--<img id="logo" src="img\logo.png" alt=""><br>
     	<br>
-
+		-->
 		<div class="container">
 			<nav class="fixed-top">
 			  <a href="javascript:void(0);" class="boton volver"></a>	 			
@@ -370,15 +423,15 @@
 				  <div class="recipe-menu">
 			
 					
-					<!-- Receta 1 -->
+					<!-- Receta 11 -->
 					<div class="recipe">
-						<p class="name">Hamburguesa1</p>
+						<p class="name">Hamburguesa11</p>
 						<img src="img\hamburguesas.jpg" alt="">
-						<a class="btnStyle3 btnStyle addToCart" id="addToCartHamburguesa1">Añadir al Carrito</a>
+						<a class="btnStyle3 btnStyle addToCart" id="addToCartHamburguesa11">Añadir al Carrito</a>
 						<p class="price"><span>$</span>15000</p>
-						<div id="checkOrderHamburguesa1" title="Hamburguesa1">
+						<div id="checkOrderHamburguesa11" title="Hamburguesa11">
 						  <h3 class="listHeading">Lista de Ingredientes:</h3>
-						  <ul class="listOfIngredients" id="recipe1">
+						  <ul class="listOfIngredients" id="recipe11">
 							<li><input type="checkbox" checked>Tomate Bun</li>
 							<li><input type="checkbox" checked>Lechuga</li>
 							<li><input type="checkbox" checked>Cebolla</li>
@@ -387,19 +440,19 @@
 						  </ul>
 						  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
 						  <a class="btnStyle listOver">Listo!</a>
-						  <h4 class="totalDialog" id="totalDialog1">Total: <span>$</span>15000</h4>
+						  <h4 class="totalDialog" id="totalDialog11">Total: <span>$</span>15000</h4>
 						</div>
 					  </div>
 			  
-					  <!-- Receta2 -->
+					  <!-- Receta 12 -->
 					  <div class="recipe">
-						<p class="name">Hamburguesa2</p>
+						<p class="name">Hamburguesa 12</p>
 						<img src="https://www.kingsford.com/wp-content/uploads/2014/11/kfd-howtohamburger-Burgers_5_0391-1024x621.jpg">
-						<a class="btnStyle3 btnStyle addToCart" id="addToCartHamburguesa2">Añadir al Carrito</a>
+						<a class="btnStyle3 btnStyle addToCart" id="addToCartHamburguesa12">Añadir al Carrito</a>
 						<p class="price"><span>$</span>20000</p>
-						<div id="checkOrderHamburguesa2" title="Hamburguesa2">
+						<div id="checkOrderHamburguesa12" title="Hamburguesa12">
 						  <h3 class="listHeading">Lista de Ingredientes:</h3>
-						  <ul class="listOfIngredients" id="recipe2">
+						  <ul class="listOfIngredients" id="recipe12">
 							<li><input type="checkbox" checked>Pepinillos</li>
 							<li><input type="checkbox" checked>Aguacate</li>
 							<li><input type="checkbox" checked>Ripio de Papa</li>
@@ -408,7 +461,7 @@
 						  </ul>
 						  <a class="btnStyle3 btnStyle addIngredient">Añadir Ingredientes</a>
 						  <a class="btnStyle listOver">Listo!</a>
-						  <h4 class="totalDialog" id="totalDialog2">Total: <span>$</span>20000</h4>
+						  <h4 class="totalDialog" id="totalDialog12">Total: <span>$</span>20000</h4>
 						</div>
 					  </div>
 			  
