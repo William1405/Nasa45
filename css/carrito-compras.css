@@ -15,7 +15,7 @@
 
 
 .btnStyle{
-background-color: #7d7d7e;
+background-color: #023E7D;
 display: inline-block;
 text-decoration: none;
 font-size: 18px;
@@ -25,7 +25,7 @@ letter-spacing: .1em;
 border-radius: 3px;
 z-index: 1;
 cursor: pointer;
-transition: all .2s ease-in-out;
+/*transition: all .2s ease-in-out;*/
 }
 
 .btnStyle:hover{
@@ -44,18 +44,18 @@ background-color: #33415C;
 }
 
 .btnStyle3{ /*Color boton de annadir ingredientes y annadir carrito*/
-background-color: #5b5b5c;
+background-color: #5C677D;
 }
 
 
 .btnStyle3:hover{
-background-color: #F2D388;
+background-color: #023E7D;
 }
 
 
 .toggleCart{
     position: fixed;
-    top: 30px;
+    top: 35px;
     left:78%;
     background-image:url("../img/carrito.png");
     border-color: transparent;
@@ -365,4 +365,113 @@ box-shadow: 0px 3px 6px rgba(0, 0, 0, .16), 0px 6px 10px rgba(0, 0, 0, .23);
 transform: scale(1.05, 1.05);
 }
 
-/*Aqui finaliza carrito de compras*/
+
+.grids2 {
+  background-color: #979DAC
+  max-width: 136rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+}
+
+.card__side2 {
+  transition: all 0.8s ease;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: -184px;
+  left: 0;
+  height: 20rem;
+  width: 100%;
+  backface-visibility: hidden;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+.card__side2--front {
+  background-color: #979DAC;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#front-12 {
+  background-image: linear-gradient(
+      rgba(2, 62, 125, 0.767),
+      rgba(20, 20, 20, 0.6)
+    ),
+    
+    
+
+
+}
+
+.card-one2 {
+  grid-column: 1/17;
+}
+.card2 {
+
+  background-color: #979DAC
+  border-color: #979DAC;
+  margin-top:0px;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 10rem;
+  width: 100%;
+  transition: all ease-in-out 400ms;
+  cursor: pointer;
+}
+.text-box-top2 {
+  font-size: 2.2rem;
+  text-shadow: 2px 2px 5px #0000006c;
+  font-weight: 300;
+}
+.text-box2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  text-align: center;
+  width: 100%;
+}
+.text-box-lower2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 10px #0000006c;
+  font-weight: 400;
+}
+.text-box-middle2 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px #0000006c;
+}
+.text-box-middle22 {
+  font-size: 3rem;
+  font-color:white;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px #f5f3f4;
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .grids2 {
+    max-width: 136rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+  }
+
+  .card-one2 {
+    grid-row: 2/3;
+  }
+
+  .card-two2 {
+    grid-column: 3/4;
+  }
+
+}

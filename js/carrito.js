@@ -65,16 +65,16 @@ $(document).ready(function() {
 		var priceDialog = 0;
 		$("#recipe"+x).children("li").children("input").each(function () {
 			if($(this).is(":checked")){
-				priceDialog+=2000;
+				priceDialog+=3000;
 			}
 				$("#totalDialog"+x+">span").text(priceDialog);
 			$(this).change(function () {
 				if ($(this).is(":checked")) {
-					priceDialog += 2000;
+					priceDialog += 3000;
 					console.log(priceDialog);
 					$("#totalDialog"+x+">span").text(priceDialog);
 				}else{
-					priceDialog -= 2000;
+					priceDialog -= 3000;
 					$("#totalDialog"+x+">span").text(priceDialog);
 				}
 			})
@@ -107,7 +107,7 @@ $(document).ready(function() {
 				var newCheckbox = '<input type="checkbox" checked>';
         
         for (var i = 0; i < newIngredient.length; i++){
-         $(this).parent().siblings("ul").append("<li>" + newCheckbox + newIngredient[i] + "  (+$2000)</li>"); /* ijoooooooooooooooooooooooooooooooooooooooooo en peso colombianos */
+         $(this).parent().siblings("ul").append("<li>" + newCheckbox + newIngredient[i] + "  (+$3000)</li>"); /* ijoooooooooooooooooooooooooooooooooooooooooo en peso colombianos */
         }
 				
 
@@ -184,7 +184,7 @@ $(document).ready(function() {
 		$("#finishOrderDialog").dialog({
 			hide: "blind",
 	    	show : "blind",
-	    	width: "500px",
+	    	width: "400px",
         closeText: "X"
 	    });
 	})

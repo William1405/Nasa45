@@ -1,5 +1,5 @@
-var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, iniciarSesion, crearMiCuenta, ingresarComoInvitado, login, desplegable; /*Estas son las secciones face,*/
-			var btn_bebidas, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btn_appi, btns_volver, btns_iniciarSesion, btns_crearMiCuenta, btn_ingresarComoInvitado, btn_desplegable; /*btns_volver es un ARRAY de botones*/
+var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, iniciarSesion, crearMiCuenta, ingresarComoInvitado, login; /*Estas son las secciones face,*/
+			var btn_bebidas, btn_sandwichs, btn_hamburguesas, btn_ver_pedido, btn_appi, btns_volver, btns_iniciarSesion, btns_crearMiCuenta, btn_ingresarComoInvitado; /*btns_volver es un ARRAY de botones*/
 			var secciones;
 			var flipCheck = 0;
 
@@ -18,11 +18,11 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				ver_pedido = document.getElementById("ver_pedido");
 				login = document.getElementById("login");
 				/*face = document.getElementById("face");*/
-				desplegable  = document.getElementById("desplegable");
+				
 				iniciarSesion = document.getElementById("iniciarSesion");
 				crearMiCuenta = document.getElementById("crearMiCuenta");
 				ingresarComoInvitado = document.getElementById("ingresarComoInvitado");
-				secciones = [splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, login, iniciarSesion, crearMiCuenta, ingresarComoInvitado, desplegable];
+				secciones = [splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, login, iniciarSesion, crearMiCuenta, ingresarComoInvitado];
 				btn_bebidas = document.getElementById("btn_bebidas");
 				btn_sandwichs = document.getElementById("btn_sandwichs");
 				btn_hamburguesas = document.getElementById("btn_hamburguesas");
@@ -33,7 +33,7 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				btn_ingresarComoInvitado = document.getElementById("btn_ingresarComoInvitado");
 				btns_volver = document.querySelectorAll(".volver");
 				//btn_appi = document.querySelectorAll(".inicio");
-				//btn_desplegable = document.getElementById("btn_desplegable");
+				
 
 			}
 
@@ -46,7 +46,7 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
 				btn_crearMiCuenta.addEventListener("click",()=>{irA(crearMiCuenta);});
 				btn_ingresarComoInvitado.addEventListener("click",()=>{irA(ingresarComoInvitado);});
-				//btn_desplegable.addEventListener("click",()=>{irA(desplegable);});
+				
 				//btn_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
 				for (var i=0;i<=3;i++) 
