@@ -32,8 +32,9 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				btn_crearMiCuenta = document.getElementById("btn_crearMiCuenta");
 				btn_ingresarComoInvitado = document.getElementById("btn_ingresarComoInvitado");
 				btns_volver = document.querySelectorAll(".volver");
-				btn_appi = document.querySelectorAll(".inicio");
-				btn_desplegable = document.getElementById("btn_desplegable");
+				//btn_appi = document.querySelectorAll(".inicio");
+				//btn_desplegable = document.getElementById("btn_desplegable");
+
 			}
 
 			function agregarEventos(){
@@ -45,7 +46,7 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
 				btn_crearMiCuenta.addEventListener("click",()=>{irA(crearMiCuenta);});
 				btn_ingresarComoInvitado.addEventListener("click",()=>{irA(ingresarComoInvitado);});
-				btn_desplegable.addEventListener("click",()=>{irA(desplegable);});
+				//btn_desplegable.addEventListener("click",()=>{irA(desplegable);});
 				//btn_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
 				for (var i=0;i<=3;i++) 
@@ -56,12 +57,13 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 					
 				}
 				
+				/*
 				for (var i=0;i<=6;i++) 
 				{
 					//console.log(btns_volver,i);
 					btn_appi[i].addEventListener("click",()=>{irA(ver_pedido);});
 				}
-				
+				*/
 				
 				//btns_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
@@ -93,6 +95,17 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				splash.classList.add("ocultar");
 				home_menu_restaurante.classList.remove("ocultar");
 
+			}
+			function mostrar() {
+			  document.getElementById("sidebar").style.width="200px";
+			  document.getElementById("btn-main").style.marginLeft="200px";
+			  document.getElementById("open").style.display="none";
+			}
+
+			function ocultar() {
+			  document.getElementById("sidebar").style.width="0";
+			  document.getElementById("btn-main").style.marginLeft="0";
+			  document.getElementById("open").style.display="inline";
 			}
 
 

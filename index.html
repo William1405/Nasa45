@@ -9,9 +9,11 @@
 	<link REL=StyleSheet HREF="css/carrito-compras.css" TYPE="text/css" MEDIA=screen>
     <script language="javascript" src="js/main.js" type="text/javascript"></script>
     <script language="javascript" src="js/cardsloop.js" type="text/javascript"></script>
+    
 	<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">-->
 	<link rel="stylesheet" href="css/effect-ball.css" TYPE="text/css" MEDIA=screen>
+	<link rel="stylesheet" href="css/menu.css" TYPE="text/css" MEDIA=screen>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script language="javascript" src="js/carrito.js" type="text/javascript"></script>
@@ -49,8 +51,43 @@
 	<section id="home_menu_restaurante" class="ocultar">
 		<div class="container">
   			<nav class="fixed-top">
-    			<button id="btn_desplegable" name="btn_desplegable" class="btn-transparent">
-      			</button> 			
+    			<div id="btn-main">
+			      <a id="open" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"></a>
+			    </div> 
+			    <nav class="bar" id="sidebar">
+			      <a href="#" class="btn-cerrar" onclick="ocultar()">&times;</a>
+			      <ul class="main">
+			        <li><a href="#"> Nombre del usuario</a></li>
+			        <li><a href="#"><i class="fas fa-user-edit"> Perfil</i> </a></li>
+			        <li><a href="#"><i class="fas fa-cog"> Configuración</i> </a></li>
+			        <li><a href="#"><i class="fas fa-cloud-download-alt"> Descargas <sup>PRO</sup></i></a></li>
+			        <li><a href="#"><i class="fas fa-sign-out-alt"> Salir</i></a></li>
+			      </ul>
+			    </nav>	
+			    <!--<nav class="navbar">
+					<h2 id="logo"></h2>
+						<div>
+						  <label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true"><img id="carritoCompras" src="img\carrito.png" alt=""></i>
+						  <i class="fa fa-circle" aria-hidden="true"></i>
+						  <span class="num"></span>
+						  </label>
+						</div>
+						<div>
+							<input type="checkbox" id="cartToggle" name="toggle" />
+							<div class="body-content"> -->
+
+								   <!-- Cart -->
+							 <!-- <nav class="cart">
+								  
+								<h3>Lista de pedidos: <br><span>$0</span></h3>
+								<ol id="listOfOrders">
+								</ol>
+								<a class="btnStyle btnStyle3 finishOrder">Finalizar Orden</a>
+							  </nav>
+							</div>
+						</div>	  
+
+				</nav>	-->	
       			<img id="logo" src="img\logo.png" alt="">
        			<a href="javascript:void(0);" class="btn-transparent1 inicio" ></a>
   			</nav>
@@ -148,14 +185,15 @@
   			<nav class="fixed-top">
     			<a href="javascript:void(0);" class="boton volver"></a>			
       			<img id="logo" src="img\logo.png" alt="">
-       			<a href="javascript:void(0);" class="btn-transparent1 inicio"></a>
+       			<!--<a href="javascript:void(0);" class="btn-transparent1 inicio"></a>-->
+
 				    <!-- Menu -->
 					<nav class="navbar">
 						 <!-- <h2 id="logo">Realizando pedido, escogiendo productos</h2>-->
 						<h2 id="logo"></h2>
 						<div>
 						  <!--<label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true">...CARRITO...<img id="carritoCompras" src="img\carrito.png" alt=""></i>-->
-							<label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true"><img id="carritoCompras" src="img\carrito.png" alt=""></i>
+							<label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true"><!--<img id="carritoCompras" src="img\carrito.png" alt="">--></i>
 							<i class="fa fa-circle" aria-hidden="true"></i>
 						  <span class="num"></span>
 							</label>
@@ -197,9 +235,10 @@
 			</ol>
 			<a class="btnStyle btnStyle3 finishOrder">Finalizar Orden</a>
 		  </nav>
+		</div>  
 
 
-		  <div class="recipe-menu">
+		<div class="recipe-menu">
 			
 					
 			<!-- Receta 21 BEBIDA-->
@@ -244,7 +283,7 @@
 				</div>
 			  </div>
 
-			  </div>
+		</div>
 
 			  <!--
   		</div>
@@ -281,26 +320,24 @@
 		
 		<div class="container">
   			<nav class="fixed-top">
-    			<a href="javascript:void(0);" class="boton volver"></a>	 			
+    			<a href="javascript:void(0);" class="boton volver"></a>			
       			<img id="logo" src="img\logo.png" alt="">
-       			<a href="javascript:void(0);" class="btn-transparent1 inicio"></a>
-				<!-- Menu -->
-				<nav class="navbar">
-					<!-- <h2 id="logo">Realizando pedido, escogiendo productos</h2>-->
-				   <h2 id="logo"></h2>
-				   <div>
-					 <!--<label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true">...CARRITO...<img id="carritoCompras" src="img\carrito.png" alt=""></i>-->
-					 <label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true"><img id="carritoCompras" src="img\carrito.png" alt=""></i>
-					 <i class="fa fa-circle" aria-hidden="true"></i>
-					 <span class="num"></span>
-					 </label>
-				   </div>
-				   </nav><!-- End of Navigation -->			
-			</nav>
-  		</div>
-		  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    
-    <div>
+       			<!--<a href="javascript:void(0);" class="btn-transparent1 inicio"></a>-->
+
+				    <!-- Menu -->
+					<nav class="navbar">
+						 <!-- <h2 id="logo">Realizando pedido, escogiendo productos</h2>-->
+						<h2 id="logo"></h2>
+						<div>
+						  <!--<label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true">...CARRITO...<img id="carritoCompras" src="img\carrito.png" alt=""></i>-->
+							<label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true"><!--<img id="carritoCompras" src="img\carrito.png" alt="">--></i>
+							<i class="fa fa-circle" aria-hidden="true"></i>
+						  <span class="num"></span>
+							</label>
+						</div>
+						</nav><!-- End of Navigation -->
+  			</nav>
+		</div>
 
 		  <!--AQUI COMIENZA CARRITO DE COMPRAS **********************************************************************************************************************--->
 
@@ -413,7 +450,7 @@
 			<nav class="fixed-top">
 			  <a href="javascript:void(0);" class="boton volver"></a>	 			
 				<img id="logo" src="img\logo.png" alt="">
-				 <a href="javascript:void(0);" class="btn-transparent1 inicio"></a>
+				 <!--<a href="javascript:void(0);" class="btn-transparent1 inicio"></a>-->
 				 <nav class="navbar">
 					<!-- <h2 id="logo">Realizando pedido, escogiendo productos</h2>-->
 				   <h2 id="logo"></h2>
