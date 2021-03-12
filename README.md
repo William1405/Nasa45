@@ -8,7 +8,7 @@ Aplicación movil con el concepto de single app acerca de el menú virtual y ped
 
 La aplicación está basada en el concepto de single app que es un único archivo HTML el cual va cambiando su contenido a medida que vamos navegando por la aplicación web. El contenido se va cargando dinámicamente según lo vamos necesitando lo que hace que la experiencia de usuario sea muy rápida y fluida. Nasa 45 es un restaurante de comida rapida de la ciudad de Neiva. El cual cuenta con 3 tipos de productos Sandwiches, Hamburguesas y bebidas. 
 
-Utiliza programación html5, css3, javascripts, sass y gulp para optimización. Además para poder funcionar de forma local se necesita descargar Fonts google Rubik 400 y 700 y además algunas librerias de Jquery 1.11.1 ya que fue la forma más funcional acerca de la opcion de carrito de compra. Inicialmente se debe colocar el navegador en forma de dispositivo movil, cuenta con dimensiones de un Samsung galaxy note 9 que son 416X846 pixeles, despues de eso ya se puede poner a correr el prototipo.
+Utiliza programación html5, css3, javascripts, sass y gulp para optimización. Además para poder funcionar de forma local se necesita descargar Fonts google Rubik 400 y 700 y además algunas librerias de Jquery 1.11.1 ya que fue la forma más funcional acerca de la opcion de carrito de compra. Inicialmente se debe colocar el navegador en forma de dispositivo movil, cuenta con dimensiones de un Samsung galaxy note 9 que son 416X846 pixeles, despues de eso ya se puede poner a correr el prototipo. El proyecto se encuentra en la rama desarrollo.
 
 
 
