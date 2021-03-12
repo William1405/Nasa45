@@ -14,7 +14,8 @@ Utiliza programación html5, css3, javascripts, sass y gulp para optimización. 
 
 Este seria el inicio de la aplicación:
 
-![image](https://user-images.githubusercontent.com/61747355/110926274-2cc90480-82f2-11eb-8ea9-872e431be977.png)
+![image](https://user-images.githubusercontent.com/61747355/110927602-d957b600-82f3-11eb-823e-db001509c0a9.png)
+
 
 
 Proyecto creado con fines estudianteles, se anexa algunas paginas que hicieron posible el proyecto: 
