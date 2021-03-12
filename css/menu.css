@@ -38,9 +38,11 @@
 }
 
 .bar ul {
+  position: relative;
+  right:  25%;
   margin: 4rem auto;
   display: block;
-  width: 80%;
+  width: 30%;
   min-width: 300px;
 }
 
