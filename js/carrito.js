@@ -92,7 +92,7 @@ $(document).ready(function() {
 		// Creates input field and two buttons for adding an ingrediant that's not on the list
 		var inputIng = '<input type="text" id="newIngredient">';
 		var confirmInput = '<a class="btnStyle3 btnStyle confirmInput">&#10004;</a>';
-		var cancelInput = '<a class="btnStyle3 btnStyle cancelInput">&#10008;</a>';
+		var cancelInput = '<a class=" btnStyle cancelInput">&#10008;</a>';
 		var inputWrap = '<div class="addIngredientWrap">' + inputIng + confirmInput + cancelInput + '</div>'
 		$(this).parent().children("ul").after(inputWrap);
     $("#newIngredient").focus();

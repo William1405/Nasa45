@@ -125,6 +125,7 @@
 }
 
 .ui-button {
+  background-color: #B33232;
   display: inline-block;
   position: relative;
   padding: 0;
@@ -201,6 +202,7 @@ input.ui-button {
 }
 
 .ui-button-icon-only .ui-icon {
+  
   left: 50%;
   margin-left: -8px;
 }

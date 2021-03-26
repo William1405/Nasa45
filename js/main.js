@@ -15,21 +15,21 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				bebidas = document.getElementById("bebidas");
 				sandwichs = document.getElementById("sandwichs");
 				hamburguesas = document.getElementById("hamburguesas");
-				ver_pedido = document.getElementById("ver_pedido");
+				/*ver_pedido = document.getElementById("ver_pedido");
 				login = document.getElementById("login");
-				/*face = document.getElementById("face");*/
+				face = document.getElementById("face");*/
 				
-				iniciarSesion = document.getElementById("iniciarSesion");
+				/*iniciarSesion = document.getElementById("iniciarSesion");
 				crearMiCuenta = document.getElementById("crearMiCuenta");
-				ingresarComoInvitado = document.getElementById("ingresarComoInvitado");
-				secciones = [splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido, login, iniciarSesion, crearMiCuenta, ingresarComoInvitado];
+				ingresarComoInvitado = document.getElementById("ingresarComoInvitado");*/
+				secciones = [splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, /* ver_pedido, login, iniciarSesion, crearMiCuenta, ingresarComoInvitado*/];
 				btn_bebidas = document.getElementById("btn_bebidas");
 				btn_sandwichs = document.getElementById("btn_sandwichs");
 				btn_hamburguesas = document.getElementById("btn_hamburguesas");
 				//btn_ver_pedido = document.getElementById("btn_ver_pedido");
 				/*btn_app = document.getElementById("btn_app");*/
-				btn_iniciarSesion = document.getElementById("btn_iniciarSesion");
-				btn_crearMiCuenta = document.getElementById("btn_crearMiCuenta");
+				/*btn_iniciarSesion = document.getElementById("btn_iniciarSesion");
+				btn_crearMiCuenta = document.getElementById("btn_crearMiCuenta");*/
 				btn_ingresarComoInvitado = document.getElementById("btn_ingresarComoInvitado");
 				btns_volver = document.querySelectorAll(".volver");
 				//btn_appi = document.querySelectorAll(".inicio");
@@ -43,9 +43,9 @@ var splash, home_menu_restaurante, bebidas, sandwichs, hamburguesas, ver_pedido,
 				btn_hamburguesas.addEventListener("click",()=>{irA(hamburguesas);});
 				//btn_ver_pedido.addEventListener("click",()=>{irA(ver_pedido);});
 				/*btn_app.addEventListener("click",()=>{irA(face);});*/
-				btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
+				/*btn_iniciarSesion.addEventListener("click",()=>{irA(iniciarSesion);});
 				btn_crearMiCuenta.addEventListener("click",()=>{irA(crearMiCuenta);});
-				btn_ingresarComoInvitado.addEventListener("click",()=>{irA(ingresarComoInvitado);});
+				btn_ingresarComoInvitado.addEventListener("click",()=>{irA(ingresarComoInvitado);});*/
 				
 				//btn_volver.addEventListener("click",()=>{irA(home_menu_restaurante);});
 
