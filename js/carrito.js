@@ -131,10 +131,10 @@ $(document).ready(function() {
 
 	$(".listOver").on("click", function () {
 		var orderName = '<h3 class="orderName "><span>' + $(this).parent().siblings(".ui-dialog-titlebar").children("span").text() + '</span><a class="delBtn">&#10008;</a>' +'</h3>';
-		var orderIngredients = '<ul class="orderIngredients "></ul>';
+		
 		var orderPrice = '<h3 class="orderPrice "><span>' + $(this).parent().children(".totalDialog").children("span").text() + '</span>$<h3>'
 		var horisontalLine = '<hr>';
-		$(".cart").children("#listOfOrders").append("<li>" + horisontalLine + orderName + orderIngredients + orderPrice + horisontalLine + "</li>");
+		$(".cart").children("#listOfOrders").append("<li>" + orderName + orderPrice + horisontalLine + "</li>");
 
 		$(this).parent().children("ul").children().children("input:checked").each(function () {
 			var selectedIngredient = $(this).parent().text();
